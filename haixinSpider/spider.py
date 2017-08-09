@@ -44,13 +44,9 @@ def spider():
 
 
 if __name__ == '__main__':
-    # detecationSpider()
-    # spider()
+    detecationSpider()
+    spider()
 
-    parser1 = parseHtml()
-    news1 = parser1.getXQRXNews()
-    # news1 = parser1.getStaticHtmlConten('https://mp.weixin.qq.com/profile?src=3&timestamp=1501904762&ver=1&signature=amLuIuerspJwR-eJWmIaX0zlvOQBi012JP-1OFz5Xauv2riQxINqrtMRm4QvCVRl80aTUv944tG6hUaEU67Uww==')
-    print(news1)
 
 
 
