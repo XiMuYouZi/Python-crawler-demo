@@ -124,6 +124,7 @@ WANGYINewsDic = {
 }
 
 
+
 SERVICE_ARGS = ['--load-images=false', '--disk-cache=true']
 
 
@@ -134,8 +135,38 @@ class parseHtml:
             {
                 "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"
             }
+
+        header1={
+            "Content-Type": "application/x-www-form-urlencoded",
+            "Accept": "*/*",
+            "qn-sig": "C2FF49006F008FF8F5E143E6DB0B3B10",
+            "idfa":"00000000-0000-0000-0000-000000000000",
+            "appver": "10.3.2_qqnews_5.3.9",
+            "Accept-Language": "zh-Hans-CN;q=1, zh-Hant-CN;q=0.9",
+            "qn-rid": "1f468c0c232f",
+            "qqnetwork": "wifi",
+            "deviceToken": "<eb7c0e06 36eecbda 871c9b7a 0c51af62 416f9029 9f5c94f5 3c1cc87e 8f97848c>",
+            "devid": "f2ba7649-c5e0-467f-b31e-23d9ae8eab7b",
+            "User-Agent" :"QQNews/5.3.9 (iPhone; iOS 10.3.2; Scale/2.00)",
+            "Referer": "http://inews.qq.com/inews/iphone/",
+            "Content-Length" :68,
+            "Accept-Encoding" :"gzip, deflate",
+            "Connection" :"keep-alive",
+            "Cookie" :"openid=oI6CFjhAqmKDJ-KEfync6k3C1xNQ;%20appid=wx073f4a4daff0abe8;%20access_token=ge7PSrSzQfUlQGjmY-fPDLlfx--K4VuU1EUNhAFJ7N2eNAFFWR4OJczqKnKEpixEMcX5DMG20AgWR78px-3bTg;%20refresh_token=ge7PSrSzQfUlQGjmY-fPDEVhmXzw2JkcJDy8nncyck8RuSM6Dyaj2e8EUZq9qZPEh08aHPV43oxol_evhuQfkg;%20unionid=onCs1uIomD4WW3eutmrgZHVuCsSk;%20logintype=1",
+            "store": 1
+        }
+
+        datas ={
+            'uid':'05DCC486-E375-40A5-9354-3D929F1C790E',
+            'child':'5317581',
+            'media_openid':''
+
+        }
+
+        cookies = {'openid':'oI6CFjhAqmKDJ-KEfync6k3C1xNQ', 'appid':'wx073f4a4daff0abe8', 'access_token':'ge7PSrSzQfUlQGjmY-fPDLlfx--K4VuU1EUNhAFJ7N2eNAFFWR4OJczqKnKEpixEMcX5DMG20AgWR78px-3bTg', 'refresh_token':'ge7PSrSzQfUlQGjmY-fPDEVhmXzw2JkcJDy8nncyck8RuSM6Dyaj2e8EUZq9qZPEh08aHPV43oxol_evhuQfkg','unionid':'onCs1uIomD4WW3eutmrgZHVuCsSk','logintype':1}
+
         try:
-            r = requests.get(url, headers=header)
+            r = requests.post(url, headers=header1,data=datas)
             if r.status_code == 200:
                 r.encoding = r.apparent_encoding
                 text = r.text

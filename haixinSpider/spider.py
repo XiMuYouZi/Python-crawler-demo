@@ -43,9 +43,19 @@ def spider():
         print('+++++++++++++++++++++++++++++++++++++')
 
 
-if __name__ == '__main__':
+
+def main():
     detecationSpider()
     spider()
+
+
+def test():
+    parser = parseHtml()
+    news = parser.getStaticHtmlConten('http://r.inews.qq.com/getSubNewsIndex?chlid=kQNSubscribeChannelMenuTypeArticle&startarticleid=&store=1&__qnr=1f468c0cd8d2&isJailbreak=0&omgid=bf7966cad0abac44e3c9e9dbdc32192ee890001011270f&idfa=00000000-0000-0000-0000-000000000000&idft=3E40D3B1-EED7-451B-8214-C6D3A6AF885B&appver=10.3.2_qqnews_5.3.9&network_type=wifi&omgbizid=c5ecb82836b71b4f534bcfdf3b70177be868006011270f&screen_height=667&devid=F2BA7649-C5E0-467F-B31E-23D9AE8EAB7B&screen_scale=2&idfv=F2BA7649-C5E0-467F-B31E-23D9AE8EAB7B&screen_width=375&device_model=iPhone&activefrom=icon&apptype=ios&startarticleid=&__qnr=1f468c0cb044&global_info=0%7C&omgid=bf7966cad0abac44e3c9e9dbdc32192ee890001011270f&idfa=00000000-0000-0000-0000-000000000000&qqnews_refpage=QNMineViewController&isJailbreak=0&appver=10.3.2_qqnews_5.3.9&network_type=wifi&device_model=iPhone8%2C1&omgbizid=c5ecb82836b71b4f534bcfdf3b70177be868006011270f&screen_height=667&devid=F2BA7649-C5E0-467F-B31E-23D9AE8EAB7B&screen_scale=2&screen_width=375&store=1&activefrom=icon')
+    print(news)
+
+if __name__ == '__main__':
+    test()
 
 
 
