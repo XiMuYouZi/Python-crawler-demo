@@ -7,7 +7,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from pyquery import PyQuery as pq
 from JDSpider.Config import *
 import pymongo
-import time
 
 
 class JDSpider:
@@ -41,7 +40,6 @@ class JDSpider:
                 searchInput.send_keys(KEYWORD)
                 submitBtn.click()
                 #点击搜索后，拿到商品页的总页数
-                self.browser.execute_script('window.scrollTo(0, document.body.scrollHeight)')
                 totalPage = self.wait.until(
                     EC.presence_of_element_located((By.CSS_SELECTOR, '#J_bottomPage > span.p-skip > em:nth-child(1)')))
                 self.get_products()
@@ -59,14 +57,15 @@ class JDSpider:
                     EC.presence_of_element_located((By.CSS_SELECTOR, '#J_bottomPage > span.p-skip > input'))
                 )
                 #等待确定按钮加载完毕
-                submit = self.wait.until(EC.element_to_be_clickable(
+                submit = self.wait.until(EC.presence_of_element_located(
                     (By.CSS_SELECTOR, '#J_bottomPage > span.p-skip > a')))
                 input.clear()
                 input.send_keys(page_number)
                 submit.click()
                 #等待当前页码的按钮上面的页数加载出来（当前页码的按钮样式和其他按钮的样式不同）
-                self.wait.until(EC.text_to_be_present_in_element(
+                page = self.wait.until(EC.text_to_be_present_in_element(
                     (By.CSS_SELECTOR, '#J_bottomPage > span.p-num > a.curr'), str(page_number)))
+                print('当前页码数：', page)
                 self.get_products()
             except TimeoutException:
                 print('翻页出错，正在重试')
@@ -99,22 +98,16 @@ class JDSpider:
 
 
         def getComputerInfo(self):
-            # try:
-            #     total = self.search()
-            #     total = int(re.compile('(\d+)').search(total).group(1))
-            #     for i in range(2, total+1):
-            #         self.next_page(i)
-            # except Exception:
-            #     print('出错啦')
-            # finally:
-            #     self.browser.close()
+            try:
+                total = self.search()
+                total = int(re.compile('(\d+)').search(total).group(1))
+                for i in range(2, total+1):
+                    self.next_page(i)
+            except Exception:
+                print('出错啦')
+            finally:
+                self.browser.close()
 
-            total = self.search()
-            total = int(re.compile('(\d+)').search(total).group(1))
-            for i in range(2, total + 1):
-                self.next_page(i)
-
-            self.browser.close()
 
 
 
