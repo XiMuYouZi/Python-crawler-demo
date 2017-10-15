@@ -34,7 +34,7 @@ class JDSpider:
                 searchInput = self.wait.until(
                     EC.presence_of_element_located((By.CSS_SELECTOR, '#key'))
                 )
-                #确定搜索按钮
+                #拿到确定搜索按钮
                 submitBtn = self.wait.until(
                     EC.element_to_be_clickable((By.CSS_SELECTOR, '#search > div > div.form > button')))
                 searchInput.send_keys(KEYWORD)
@@ -74,10 +74,10 @@ class JDSpider:
 
         def get_products(self):
             print('获取商品信息')
-            self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '#J_goodsList > ul > li')))
+            self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '#J_goodsList')))
             html = self.browser.page_source
             doc = pq(html)
-            items = doc('#J_goodsList > ul > li').items()
+            items = doc('.gl-warp li').items()
             for item in items:
                 product = {
                     'image': item.find('img').attr('src'),

@@ -7,9 +7,10 @@ __author__ = 'Michael Liao'
 
 
 import math
+from functools import reduce
 import functools
 
-
+#装饰器
 def log(text):
     def decorator(func):
         @functools.wraps(func)
@@ -121,7 +122,7 @@ def cap(L):
         if  not  isinstance(x,str):
             raise TypeError('只能输入字符')
         return x.capitalize();
-    return list(map(fn,L));
+    return ''.join(list(map(fn,L)));
 
 def prod(L):
     def squre(x,y):
@@ -153,3 +154,46 @@ def lazy_sum(*args):
     return sum
 
 
+def add(x, y, f):
+    return f(x) + f(y)
+
+
+def lazy_sum(*args):
+    def sum():
+        ax = 0
+        for n in args:
+            ax = ax + n
+        return ax
+    return sum
+
+
+
+def count():
+    fs = []
+    for i in range(1, 4):
+        def f():
+             return i*i
+        fs.append(f)
+    return fs
+
+
+def person(name, age, *, city, job):
+    print(name, age, city, job)
+
+
+
+def fib(max):
+    n, a, b = 0, 0, 1
+    while n < max:
+        yield b
+        a, b = b, a + b
+        n = n + 1
+    return 'done'
+
+
+class Student(object):
+    def __init__(self, name):
+        self.name = name
+
+    def __call__(self):
+        print('My name is %s.' % self.name)
