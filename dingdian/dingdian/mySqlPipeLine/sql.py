@@ -1,5 +1,6 @@
 import pymongo
 from dingdian.dingdian import settings
+from dingdian.dingdian.items import *
 
 MYSQL_HOSTS = settings.MYSQL_HOSTS
 MYSQL_USER = settings.MYSQL_USER
@@ -9,32 +10,28 @@ MYSQL_PASSWORD = settings.MYSQL_PASSWORD
 
 DB_HOST = settings.MONGO_URL
 DB_NAME = settings.MONGO_DB
-DB_TABLE = settings.MONGO_TABLE
+DB_NOVEL_TABLE = settings.MONGO_NOVEL_TABLE
+DB_CHAPTER_TABLE = settings.MONGO_CHAPTER_TABLE
+
 
 class SQL:
 
-  def __init__(self):
-    client = pymongo.MongoClient(DB_HOST)
-    self.db = client[DB_NAME]
-
-  def insert_novel_info(self,nameID,name,author,category,url,status,cover,collect_num,content_len,last_refresh_time,desc):
-      novel_info = {
-        'nameID':nameID,
-        'name' : name,
-        'url' : url,
-        'cover' : cover,
-        'author' : author,
-        'collect_num' : collect_num,
-        'content_len' : content_len,
-        'last_refresh_time' : last_refresh_time,
-        'desc' : desc,
-        'category' : category,
-        'status' : status
-      }
-      try:
-        if self.db[DB_TABLE].insert(novel_info):
-           print('存储到MONGODB成功')
-      except Exception:
-           print('存储到MONGODB失败')
+      def __init__(self):
+        client = pymongo.MongoClient(DB_HOST)
+        self.db = client[DB_NAME]
 
 
+      def insert_novel_info(self,item):
+          try:
+            if self.db[DB_NOVEL_TABLE].insert(item):
+               print('存储小说信息成功')
+          except Exception:
+               print('存储小说信息失败')
+
+
+      def insert_chapter_info(self, item):
+          try:
+              if self.db[DB_CHAPTER_TABLE].insert(item):
+                  print('存储章节信息成功')
+          except Exception:
+              print('存储章节信息失败')

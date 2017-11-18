@@ -2,7 +2,7 @@
 import scrapy
 import re
 from  pyquery import PyQuery as pq
-from dingdian.dingdian.items import DingdianItem
+from dingdian.dingdian.items import *
 from scrapy.http import Request
 
 class DingdianxiaoshuoSpider(scrapy.Spider):
@@ -57,8 +57,9 @@ class DingdianxiaoshuoSpider(scrapy.Spider):
         content_len = htmlContent.find('table').find('td').eq(4).text()
         last_refresh_time = htmlContent.find('table').find('td').eq(5).text()
         desc = htmlContent.find('dd').eq(3).find('p').eq(1).text()
-        nameID = htmlContent.find('.read').attr('href')[-6:-1]
-        item['nameID'] = nameID
+        chapterURL = htmlContent.find('.read').attr('href')
+        novelID = chapterURL [-6:-1]
+        item['novelID'] = novelID
         item['name'] = name
         item['url'] = url
         item['cover'] = cover
@@ -69,5 +70,38 @@ class DingdianxiaoshuoSpider(scrapy.Spider):
         item['desc'] = desc
         item['category'] = category
         item['status'] = status
+        yield item
+        yield Request(url=chapterURL,callback=self.get_chapter_info,meta={'novelID':novelID})
+
+
+#获取每个小说的每个章节的信息
+    def get_chapter_info(self,response):
+        html = pq(response.text)
+        chapters = list(html('td > a').items())
+        serial = 0
+        for chapter in chapters:
+            serial = serial+1
+            url = response.url+chapter.attr('href')
+            name = chapter.text()
+            yield Request(url=url,callback=self.get_chapter_content,meta={'novelID':response.meta['novelID'],
+                                                                          'serialNum':serial,
+                                                                          'name':name,
+                                                                          'url':url})
+#获取每个章节的内容，收集齐每个章节的全部信息
+    def get_chapter_content(self,response):
+        html = pq(response.text)
+        item = novelChapterInfoItem()
+        item['novelID'] = response.meta['novelID']
+        item['serialNum'] = response.meta['serialNum']
+        item['name'] = response.meta['name']
+        item['url'] = response.meta['url']
+        item['content'] = html.find('#contents').text()
         return item
+
+
+
+
+
+
+
 

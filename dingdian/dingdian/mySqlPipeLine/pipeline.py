@@ -1,9 +1,14 @@
 from .sql import SQL
-from dingdian.dingdian.items import  DingdianItem
+from dingdian.dingdian.items import  *
 
 
 class DingDianMongoDBPipeLine(object):
     def process_item(self,item,spider):
-     if isinstance(item,DingdianItem):
-         sql = SQL()
-         sql.insert_novel_info(item['nameID'],item['name'],item['author'],item['category'],item['url'],item['status'],item['cover'],item['collect_num'],item['content_len'],item['last_refresh_time'],item['desc'])
+        sql = SQL()
+        if isinstance(item,DingdianItem):
+            sql.insert_novel_info(dict(item))
+
+        if isinstance(item,novelChapterInfoItem):
+            sql.insert_chapter_info(dict(item))
+
+

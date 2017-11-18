@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d93ce969-97a9-4c06-8556-4368d784a3d4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dingdian/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dingdian/dingdian/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dingdian/dingdian/entrypoint.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dingdian/dingdian/items.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dingdian/dingdian/middlewares.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine/pipeline.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine/sql.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dingdian/dingdian/pipelines.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dingdian/dingdian/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dingdian/dingdian/spiders/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dingdian/dingdian/spiders/dingdianxiaoshuo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dingdian/scrapy.cfg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDSpider/Spider.py" afterPath="$PROJECT_DIR$/JDSpider/Spider.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDSpider/Test.py" afterPath="$PROJECT_DIR$/JDSpider/Test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/1.html" afterPath="$PROJECT_DIR$/Test/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/fun.py" afterPath="$PROJECT_DIR$/Test/fun.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/testFun.py" afterPath="$PROJECT_DIR$/Test/testFun.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haixinSpider/parseHtml.py" afterPath="$PROJECT_DIR$/haixinSpider/parseHtml.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haixinSpider/spider.py" afterPath="$PROJECT_DIR$/haixinSpider/spider.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dingdian/dingdian/items.py" afterPath="$PROJECT_DIR$/dingdian/dingdian/items.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine/pipeline.py" afterPath="$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine/pipeline.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine/sql.py" afterPath="$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine/sql.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dingdian/dingdian/settings.py" afterPath="$PROJECT_DIR$/dingdian/dingdian/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dingdian/dingdian/spiders/dingdianxiaoshuo.py" afterPath="$PROJECT_DIR$/dingdian/dingdian/spiders/dingdianxiaoshuo.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,8 +19,9 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/$WXRobo.coverage" NAME="WXRobo Coverage Results" MODIFIED="1501729919105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$sql.coverage" NAME="sql Coverage Results" MODIFIED="1510994833220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine" />
-    <SUITE FILE_PATH="coverage/$entrypoint.coverage" NAME="entrypoint Coverage Results" MODIFIED="1510998298091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dingdian/dingdian" />
+    <SUITE FILE_PATH="coverage/$entrypoint.coverage" NAME="entrypoint Coverage Results" MODIFIED="1511009081041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dingdian/dingdian" />
     <SUITE FILE_PATH="coverage/$spider__1_.coverage" NAME="spider (1) Coverage Results" MODIFIED="1503034295423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haixinSpider" />
+    <SUITE FILE_PATH="coverage/$dingdianxiaoshuo.coverage" NAME="dingdianxiaoshuo Coverage Results" MODIFIED="1511007793354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dingdian/dingdian/spiders" />
     <SUITE FILE_PATH="coverage/$Test.coverage" NAME="Test Coverage Results" MODIFIED="1508637804711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JDSpider" />
     <SUITE FILE_PATH="coverage/$Unittests_in_test_py.coverage" NAME="Unittests in spider.py Coverage Results" MODIFIED="1501663239069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$Unittests_in_testFun_py.coverage" NAME="Unittests in testFun.py Coverage Results" MODIFIED="1510887667770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -60,8 +46,8 @@
       <file leaf-file-name="dingdianxiaoshuo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dingdian/dingdian/spiders/dingdianxiaoshuo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+            <state relative-caret-position="117">
+              <caret line="84" column="33" lean-forward="true" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -69,7 +55,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="entrypoint.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dingdian/dingdian/items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="entrypoint.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dingdian/dingdian/entrypoint.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -83,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine/pipeline.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+              <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -91,11 +87,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dingdian/dingdian/items.py">
+      <file leaf-file-name="sql.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine/sql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+            <state relative-caret-position="158">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item.py" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/item.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dingdian/dingdian/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -104,21 +122,9 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dingdian/dingdian/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="68" column="1" lean-forward="false" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+            <state relative-caret-position="336">
+              <caret line="100" column="32" lean-forward="false" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sql.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine/sql.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -135,7 +141,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>client</find>
       <find>u4000</find>
       <find>//img14.360buyimg.com/n7/jfs/t7333/332/267795023/60689/8cf8de7/59911458N0fb40187.jpg</find>
       <find>华硕 （ASUS）G11飞行堡垒 台式游戏电脑主机</find>
@@ -165,6 +170,7 @@
       <find>至尊</find>
       <find>神兵传</find>
       <find>天下魔兽</find>
+      <find>CONCURRENT_REQUESTS</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -203,10 +209,10 @@
         <option value="$PROJECT_DIR$/dingdian/dingdian/entrypoint.py" />
         <option value="$PROJECT_DIR$/dingdian/scrapy.cfg" />
         <option value="$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine/__init__.py" />
-        <option value="$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine/pipeline.py" />
         <option value="$PROJECT_DIR$/dingdian/dingdian/items.py" />
         <option value="$PROJECT_DIR$/dingdian/dingdian/settings.py" />
         <option value="$PROJECT_DIR$/dingdian/dingdian/spiders/dingdianxiaoshuo.py" />
+        <option value="$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine/pipeline.py" />
         <option value="$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine/sql.py" />
       </list>
     </option>
@@ -218,8 +224,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="396" />
-    <option name="y" value="46" />
+    <option name="x" value="553" />
+    <option name="y" value="32" />
     <option name="width" value="1517" />
     <option name="height" value="980" />
   </component>
@@ -511,25 +517,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JDSpider" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="代码" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JDSpider/Spider.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="Unittests in testFun.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -579,6 +566,25 @@
       <module name="代码" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine/sql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="dingdianxiaoshuo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dingdian/dingdian/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="代码" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dingdian/dingdian/spiders/dingdianxiaoshuo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -754,18 +760,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.代码" />
       <item index="1" class="java.lang.String" itemvalue="Python.Test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Spider" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in testFun.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python.entrypoint" />
-      <item index="5" class="java.lang.String" itemvalue="Python.sql" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in testFun.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python.entrypoint" />
+      <item index="4" class="java.lang.String" itemvalue="Python.sql" />
+      <item index="5" class="java.lang.String" itemvalue="Python.dingdianxiaoshuo" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.entrypoint" />
-        <item index="1" class="java.lang.String" itemvalue="Python.sql" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in testFun.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Spider" />
+        <item index="1" class="java.lang.String" itemvalue="Python.dingdianxiaoshuo" />
+        <item index="2" class="java.lang.String" itemvalue="Python.sql" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in testFun.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -849,14 +855,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="396" y="46" width="1517" height="980" extended-state="0" />
+    <frame x="553" y="32" width="1517" height="980" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28271186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="539" y="0" width="841" height="1003" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28271186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="539" y="0" width="841" height="1003" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32630098" sideWeight="0.5028612" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42004505" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42004505" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32277226" sideWeight="0.49713877" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32574257" sideWeight="0.49713877" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2550586" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -931,9 +937,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/爬虫/爬取京东笔记本信息（动态网页爬取）-2.py" />
-    <entry file="file://$PROJECT_DIR$/爬虫/1.py" />
-    <entry file="file://$PROJECT_DIR$/爬虫/jd_goods_info.txt" />
     <entry file="file://$PROJECT_DIR$/爬虫/抓取糗百段子（静态网页爬去）" />
     <entry file="file://$PROJECT_DIR$/源代码/property04.py" />
     <entry file="file://$PROJECT_DIR$/源代码/inherit_01_new.py" />
@@ -1154,6 +1157,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="2483" column="8" lean-forward="false" selection-start-line="2483" selection-start-column="8" selection-end-line="2483" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1164,48 +1168,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dingdian/dingdian/items.py">
+    <entry file="file://$PROJECT_DIR$/dingdian/dingdian/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/item.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dingdian/dingdian/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="68" column="1" lean-forward="false" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+        <state relative-caret-position="336">
+          <caret line="100" column="32" lean-forward="false" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine/pipeline.py">
+    <entry file="file://$PROJECT_DIR$/dingdian/dingdian/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dingdian/dingdian/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dingdian/dingdian/spiders/dingdianxiaoshuo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="117">
+          <caret line="84" column="33" lean-forward="true" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine/sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1215,6 +1223,26 @@
         <state relative-caret-position="17">
           <caret line="1" column="48" lean-forward="false" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine/pipeline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine/sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
