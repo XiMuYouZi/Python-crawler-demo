@@ -26,7 +26,7 @@ def spider():
     parser = parseHtml()
     news = parser.sendAllNewsToEmail()
     print('本次爬取时间：', time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
-    print('本次爬取内容：\n', );
+    print('本次爬取内容：\n', )
     print(news)
     print('+++++++++++++++++++++++++++++++++++++')
 
@@ -38,7 +38,7 @@ def spider():
         parser = parseHtml()
         news = parser.sendAllNewsToEmail()
         print('本次爬取时间：', time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
-        print('本次爬取内容：\n', );
+        print('本次爬取内容：\n', )
         print(news)
         print('+++++++++++++++++++++++++++++++++++++')
 
