@@ -14,7 +14,7 @@ DB_NOVEL_TABLE = settings.MONGO_NOVEL_TABLE
 DB_CHAPTER_TABLE = settings.MONGO_CHAPTER_TABLE
 
 
-class SQL:
+class MongoDB:
 
       def __init__(self):
         client = pymongo.MongoClient(DB_HOST)

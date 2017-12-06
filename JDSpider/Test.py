@@ -11,5 +11,5 @@ def test():
     text = parser.getStaticHtmlConten('http://huaban.com/boards/16312689/')
     print(text)
 
-if __name__ == '__main__':
-    test()
+# if __name__ == '__main__':
+main()

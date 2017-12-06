@@ -4,11 +4,13 @@ import re
 from  pyquery import PyQuery as pq
 from dingdian.dingdian.items import *
 from scrapy.http import Request
+from scrapy.utils.response import *
+from scrapy.shell import inspect_response
 
 class DingdianxiaoshuoSpider(scrapy.Spider):
     name = 'dingdianxiaoshuo'
     allowed_domains = ['x23us.com']
-    # start_urls = ['http://www.x23us.com//class/']
+    # start_urls = ['http://www.baidu.com','http://www.qq.com']
     base_url = 'http://www.x23us.com/class/'
     suffix = '.html'
 
@@ -21,8 +23,9 @@ class DingdianxiaoshuoSpider(scrapy.Spider):
         yield Request(url='http://www.x23us.com/quanben/1', callback=self.parse)
 
 
-#获取每个分类下面的全部页面的URL
+#获取每个分类下面的全部页面的URL˘
     def parse(self, response):
+        # inspect_response(response,self),然后进入shell，输入view(response)可以抓取到的网页内容
         responseText = pq(response.text)
         g1 = list(responseText('#pagelink > a.last ').items())
         baseURL = str(response.url)[:-6]
@@ -46,7 +49,7 @@ class DingdianxiaoshuoSpider(scrapy.Spider):
 #获取每个小说的信息
     def get_novel_info(self,response):
         htmlContent = pq(response.text)
-        item = DingdianItem()
+        item = novelInfoItem()
         name = str(response.meta['name'])[:-2]
         url = str(response.meta['url'])
         cover = "http://www.x23us.com" + htmlContent('#content > dd:nth-child(3) > div:nth-child(1) > a > img').attr('src')
@@ -62,7 +65,7 @@ class DingdianxiaoshuoSpider(scrapy.Spider):
         item['novelID'] = novelID
         item['name'] = name
         item['url'] = url
-        item['cover'] = cover
+        item['file_urls'] = [cover]
         item['author'] = author
         item['collect_num'] = collect_num
         item['content_len'] = content_len

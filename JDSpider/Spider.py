@@ -14,6 +14,7 @@ class JDSpider:
         def __init__(self):
             client = pymongo.MongoClient(MONGO_URL)
             self.db = client[MONGO_DB]
+            #开启PhantomJS模式
             # self.browser = webdriver.PhantomJS(service_args=SERVICE_ARGS,
             #                               executable_path='/Users/Chan/phantomjs-2.1.1-macosx/bin/phantomjs')
 
@@ -23,6 +24,7 @@ class JDSpider:
             chrome_options.add_argument('--disable-gpu')
             chrome_options.add_argument('--user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3080.5 Safari/537.36')
             self.browser = webdriver.Chrome(chrome_options=chrome_options,executable_path='/Users/Chan/chromeDriver/bin/chromedriver')
+
             self.wait = WebDriverWait(self.browser, 20)
             self.browser.set_window_size(1400, 900)
 
@@ -86,6 +88,7 @@ class JDSpider:
                     'title': item.find('.p-name').text(),
                     'shop': item.find('.J_im_icon').text(),
                 }
+                print(product)
                 self.save_to_mongo(product)
 
 
@@ -109,9 +112,6 @@ class JDSpider:
                 self.browser.close()
 
 
-
-
-# class JDDynamicWebPagePase:
 
 
 

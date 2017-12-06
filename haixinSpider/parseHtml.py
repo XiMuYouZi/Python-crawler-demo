@@ -21,7 +21,6 @@ class SendMail:
     def __init__(self):
         self.from_addr = '1214251739@qq.com'
         self.password = 'erkezuuzeesgiagb'  # qq授权码
-        #349176813@qq.com
         haixin = '349176813@qq.com'
         ws2 = 'wangsheng9297@163.com'
         self.to_addr = [haixin,ws2]
@@ -130,24 +129,23 @@ WANGYINewsDic = {
 SERVICE_ARGS = ['--load-images=false', '--disk-cache=true']
 header = \
 {
-# 'Host': 'huaban.com',
-# 'Connection': 'keep-alive',
-# 'Pragma': 'no-cache',
-# 'Cache-Control': 'no-cache',
-# 'Upgrade-Insecure-Requests': 1,
-'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
-'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-'Referer': 'http://huaban.com/search/?q=%E7%BE%8E%E5%A5%B3',
-# 'Accept-Encoding': 'gzip, deflate',
-# 'Accept-Language': 'zh-CN,zh;q=0.8',
-'Cookie': 'UM_distinctid=15b9a2117ad493-07663b9ea1e5d1-396a7807-13c680-15b9a2117ae37a; _uab_collina=150224242324971480915926; CNZZDATA1256914954=1307721638-1497797793-http%253A%252F%252Fwww.poluoluo.com%252F%7C1508119458; referer=https%3A%2F%2Fwww.google.com%2F; _f=iVBORw0KGgoAAAANSUhEUgAAADIAAAAUCAYAAADPym6aAAAFh0lEQVRYR8WXCWxUVRSGv9O9gGKAsLTsaI2iNAJv2JS%2BasSNBFRCgomyhcWiKOCGBBAIoBKgRWkwQXCJVhBwIdLI4kxZBGYKigIaLDQUBIRaIlZoafuOuTOvw5SytKbEm0zmzcxdznfOf%2F73RlBV3DF1%2FnzaFxUxYelSnKio4Lcq0g%2F4GmgrUFY9t67vCrOAGIFpdV1zpXmZJZnhOK%2F0u0SCjF%2B2jHbHjjFt7tzwXBW5C9gEtBOoqm8wCuOBlgKz67s2cn69QVIOHWLKwoVEV1VRFR1tKmMBnwB3AvcAg4HlQHPgceADgQKFGCAD8ABFwCqBfQqjgKXuHt2AlwS2BqsNA4GhwAlgr8BqhTbA%2B64KXgE%2BAuZklWRWXisRNSoyasUKlk6YwOJJk8Jrps6fbyBSgD6AA%2FwATBHY4spmJ%2FAtkAN8CqwHtgGvm4DdiqQITFboC%2BwAugA2cAfwKvAC0MLIT2GOgQX6A38Ah4HkrJJMc33VUQMkIzubFsXFzJ4xI1JaBiLPSMsF2QK84QY5ETgA%2BN3guws4CiOAmwWWaKhKyW6QAnhNhoHppqICZzWUqGxgANDY3auHe57pz9H1Ahm5cmWw2WfNnBkJ0hVYC5h303AB4DmBXQqRIIVAB4F%2FFN4Dfjd94YKYbJtrA2LWTybUM88L%2FKwwCHjTPcNIdCPwQATIM1klmSV1qkiXw4fJzsggvrycYTk5nGzTJnhdlpBgyv4W8JArC%2BMERuu5wBLAANzrZtn00Co3qFKgN5DmBn2%2FK8%2FRhCT2BPAhMBVY7AY5DLjo9lNPQi75vVsRI9nrS6tTYSGxFRXBJi%2BPj%2BdI584klJVxITExFThnNAz8BBhfftht6FNAExfGNGMv93AjNyMNk%2F0kINE1i7%2BArdXup6Eqm323u%2FMLjAyBC4Qc0rzijX1nlWQerBPI1VHFyOF%2FH%2FWy3ytGK7VB1LurLRK9CqUCIRYoENsarj7%2FepBmoQrISrF7vlO9p27Pb0%2BlY3qtERI1V9J6GoerMULrSUHJlXTPi5ffR0RhyJG72dmqiONNTHEvjRquVVcQM099%2FpEgy0F3i%2B0xmke93hikyQnQL8X2jA1DhL4%2FirAOlXXgfGN6R2yPkV5wqNe%2FGZGb0BZpSHER6Ltie8I30TVFK%2FWRohQaVcaxocOv%2FNb0z4YBcWF2gnQnNq6d9Es9rdv29KDK2USic5v06hU%2BSfMCE1AWoY2aS3rXUvX5%2FSDFYluPBvfJz29KqZ4BBolt5arPbwDGie1pVR1t4MAXej6mAutMW3xJRzh0S3EDgngDQxA%2BBxaJbU1RX%2BBjoLXY1oORp6gv8DbKRBo5yQZQfX7jRK3F9nQOJSQ%2FHXQzUQyV%2FtZazfPPwWEqcfFJJkFmjukRI61xB3vxXfLhhgUJBRE4CsSKbSWp138ckTEmqzVB%2FLkgXcW22l%2BqJM3E9twe%2FJznn4JjLN7pKOm9jwdBlNdI1NbVlTUg0U4UY36xbhBI8FAxT7YLUJ6UdOvWWk18WYbdijQPgxhJVlbtJoqnJM2zOgwSG58cWZEbC%2BItTIDiUwhNgXliW7Ue1zUoQc2pzrB6%2FT8C%2B4mLn0xlWWOclieRM2dRGSnp1mfq9WeCDDRJUd%2Be%2B8Tusa1aWmMPetjYroDCm2ve6P%2Bza9WQjjewBnRwpKZrVcUb2IVoNCLbcRhJXFwKFy9uQDTVAHJepiM8jcgMVBcgjEDF3N3NA%2BRjWd12bOh7qgM9TydzovHffNXxIBXRl%2F5VNAzItr2pOFXjJc169ooWXm2xvsAS0E7Exo8Oulxe%2FnBUk8W25rlNPxl1Bhhbl3Rrjfp290GihuKUvpyVuq%2Bi%2B5mk4MNeYlUs%2B5ud4lxcefi4BgG5VvAN9dsNubM3VHD12ed6IP8CjWOBN9vaFkcAAAAASUVORK5CYII%3D%2CMacIntel.1440.900.24; _hmt=1; sid=sKMcuZgCRGhfWdBa947gqyK4Yi3.hHwLId1%2FcZ3Tz32aPMIT1b5qjRY4jVyovJtqhgrpyjQ; _ga=GA1.2.1600592015.1492939511; _cnzz_CV1256903590=is-logon%7Clogged-out%7C1508635626809; CNZZDATA1256903590=598059047-1492936490-null%7C1508635467; __asc=ac5d195815f41af7aa9be806d90; __auc=902a4fc815b9a2115f366ca7a61'
+# 'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+# 'Accept-Encoding':'gzip, deflate',
+# 'Accept-Language':'zh-CN,zh;q=0.9',
+# 'Cache-Control':'no-cache',
+# 'Connection':'keep-alive',
+# 'Cookie':'_free_proxy_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTI2ZGY2ZWY1Y2YzMzRiZTY0OTcxZmRiZmI0NjE1NzM5BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMXZuaXJJRzZPeXJ2UUI2aXdBYXQ5dFAzS21zTlVNYXQ2RGw2Um5BRHNnZVk9BjsARg%3D%3D--a4472b34f4036a26ddadf0a76b61dbdf30cae0ed; Hm_lvt_0cf76c77469e965d2957f0553e6ecf59=1512469255; Hm_lpvt_0cf76c77469e965d2957f0553e6ecf59=1512533817',
+# 'Host':'www.xicidaili.com',
+# 'Referer':'http://www.xicidaili.com/nn/2',
+# 'Pragma':'no-cache',
+# 'Upgrade-Insecure-Requests':1,
+'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36'
 }
 
 
 class parseHtml:
 
     def  getStaticHtmlConten(self, url):
-
          try:
             r = requests.post(url, headers=header)
             if r.status_code == 200:

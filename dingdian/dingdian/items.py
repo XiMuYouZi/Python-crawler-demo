@@ -9,22 +9,22 @@ import scrapy
 
 
 #小说概览信息
-class DingdianItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
+class novelInfoItem(scrapy.Item):
     name = scrapy.Field()
     author = scrapy.Field()
     url = scrapy.Field()
     novelID = scrapy.Field()
     category = scrapy.Field()
     status = scrapy.Field()
-    cover = scrapy.Field()
+    file_urls = scrapy.Field()
+    files =scrapy.Field()
     collect_num = scrapy.Field()
     content_len = scrapy.Field()
     last_refresh_time = scrapy.Field()
     desc = scrapy.Field()
 
 
+#每篇小说的章节信息
 class novelChapterInfoItem(scrapy.Item):
     novelID = scrapy.Field()
     content = scrapy.Field()
