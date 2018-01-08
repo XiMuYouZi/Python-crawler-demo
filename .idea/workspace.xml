@@ -2,89 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d93ce969-97a9-4c06-8556-4368d784a3d4" name="Default" comment="添加元类演示demo">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ ThirdParty/.idea/ ThirdParty.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ ThirdParty/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ ThirdParty/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ ThirdParty/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/api.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/config.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/db.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/error.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/generator.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/importer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/scheduler.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/tester.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/verify.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/importer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/requirements.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/run.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/tests/login.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/examples/example.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/examples/example_round_proxy.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/api.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/db.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/error.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/getter.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/schedule.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/setting.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/requirements.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/run.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/setup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Api/ProxyApi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Api/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Config.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/DB/DbClient.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/DB/MongodbClient.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/DB/RedisClient.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/DB/SsdbClient.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/DB/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Manager/ProxyManager.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Manager/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/ProxyGetter/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/ProxyGetter/getFreeProxy.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Run/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Schedule/ProxyCheck.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Schedule/ProxyRefreshSchedule.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Schedule/ProxyValidSchedule.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Schedule/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Test/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Test/testGetConfig.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Test/testGetFreeProxy.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Test/testLogHandler.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Test/testWebRequest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Util/EnvUtil.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Util/GetConfig.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Util/LogHandler.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Util/WebRequest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Util/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Util/utilClass.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Util/utilFunction.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/_config.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/doc/introduce.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/doc/release_notes.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/log/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/requirements.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ThirdParty/.idea/ ThirdParty.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ThirdParty/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ThirdParty/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ThirdParty/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ThirdParty/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ThirdParty/ProxyPool2/.idea/workspace.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Crawler/JDSpider/Spider.py" afterPath="$PROJECT_DIR$/Crawler/JDSpider/Spider.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Crawler/JDSpider/Test.py" afterPath="$PROJECT_DIR$/Crawler/JDSpider/Test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Crawler/JDSpider/ghostdriver.log" afterPath="$PROJECT_DIR$/Crawler/JDSpider/ghostdriver.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDemo/MetaClass.py" afterPath="$PROJECT_DIR$/TestDemo/MetaClass.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDemo/test1.py" afterPath="$PROJECT_DIR$/TestDemo/test1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/schedule.py" afterPath="$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/schedule.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -139,24 +64,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/run.py">
+      <file leaf-file-name="RedisClient.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/DB/RedisClient.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="-814">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schedule.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/schedule.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="62" column="6" lean-forward="false" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -164,52 +77,88 @@
       <file leaf-file-name="SsdbClient.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/DB/SsdbClient.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-1648">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setting.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/setting.py">
+      <file leaf-file-name="introduce.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/doc/introduce.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="207">
+              <caret line="64" column="6" lean-forward="false" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getter.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/getter.py">
+      <file leaf-file-name="getFreeProxy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/ProxyGetter/getFreeProxy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-2503">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/db.py">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/Run/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="54" column="27" lean-forward="true" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/error.py">
+      <file leaf-file-name="testGetFreeProxy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/Test/testGetFreeProxy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="81">
+              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testWebRequest.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/Test/testWebRequest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebRequest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/Util/WebRequest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1037">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProxyManager.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/Manager/ProxyManager.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-562">
+              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/Manager/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -320,8 +269,8 @@
         <option value="$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/api.py" />
         <option value="$PROJECT_DIR$/ThirdParty/ProxyPool2/run.py" />
         <option value="$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/utils.py" />
-        <option value="$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/db.py" />
         <option value="$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/getter.py" />
+        <option value="$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/db.py" />
         <option value="$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/schedule.py" />
       </list>
     </option>
@@ -397,8 +346,22 @@
               <option name="myItemId" value="ThirdParty" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ProxyPool2" />
+              <option name="myItemId" value="代码" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="代码" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThirdParty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proxyPool1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -416,33 +379,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ProxyPool2" />
+              <option name="myItemId" value="proxyPool1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="proxypool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThirdParty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProxyPool2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
+              <option name="myItemId" value="Util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -459,18 +400,12 @@
               <option name="myItemId" value="ThirdParty" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
+              <option name="myItemId" value="proxyPool1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TestDemo" />
+              <option name="myItemId" value="Test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1044,38 +979,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/tester.py" />
-    <entry file="file://$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/generator.py" />
-    <entry file="file://$PROJECT_DIR$/Crawler/JDSpider/Spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-          <folding>
-            <element signature="e#41#50#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestDemo/MetaClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-          <folding>
-            <marker date="1515197638000" expanded="true" signature="2425:2451" ph="insert into missing_value... " />
-            <marker date="1515197638000" expanded="true" signature="2425:2452" ph="insert into missing_value... " />
-            <marker date="1515197638000" expanded="true" signature="2425:2455" ph="insert into missing_value... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/db.py" />
-    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/error.py" />
-    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/api.py" />
-    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/getter.py" />
-    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/utils.py" />
-    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/setup.py" />
-    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/setting.py" />
     <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/requirements.txt" />
     <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/run.py" />
     <entry file="file://$PROJECT_DIR$/ Third-party/proxy-pool-1/Api/ProxyApi.py" />
@@ -1148,16 +1051,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-137">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/fake_useragent/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
@@ -1179,17 +1072,7 @@
         <state relative-caret-position="361">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="54" column="27" lean-forward="true" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1228,25 +1111,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/setting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/schedule.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="62" column="6" lean-forward="false" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
+        <state relative-caret-position="81">
+          <caret line="107" column="18" lean-forward="true" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/Util/GetConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/DB/DbClient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/DB/MongodbClient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-679">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/DB/RedisClient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-814">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/DB/SsdbClient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1648">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/Manager/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1254,10 +1205,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/run.py">
+    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/Manager/ProxyManager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="-562">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/doc/introduce.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="64" column="6" lean-forward="false" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/ProxyGetter/getFreeProxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2503">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/Run/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/Test/testGetFreeProxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/Util/WebRequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1037">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/Test/testWebRequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="10" />
           <folding />
         </state>
       </provider>
