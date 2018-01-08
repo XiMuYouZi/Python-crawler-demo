@@ -6,13 +6,14 @@ try:
     from aiohttp.errors import ProxyConnectionError,ServerDisconnectedError,ClientResponseError,ClientConnectorError
 except:
     from aiohttp import ClientProxyConnectionError as ProxyConnectionError,ServerDisconnectedError,ClientResponseError,ClientConnectorError
-from proxypool.db import RedisClient
-from proxypool.error import ResourceDepletionError
-from proxypool.getter import FreeProxyGetter
-from proxypool.setting import *
+from ThirdParty.ProxyPool2.proxypool.db import RedisClient
+from ThirdParty.ProxyPool2.proxypool.error import ResourceDepletionError
+from ThirdParty.ProxyPool2.proxypool.getter import FreeProxyGetter
+from ThirdParty.ProxyPool2.proxypool.setting import *
 from asyncio import TimeoutError
 
 
+#检查ip地址是否有效，有效就放入redis，无效就不放入redis
 class ValidityTester(object):
     test_api = TEST_API
 
@@ -58,6 +59,7 @@ class ValidityTester(object):
             print('Async Error')
 
 
+#去各大免费ip代理网站爬取ip地址
 class PoolAdder(object):
     """
     add proxy to pool
@@ -78,16 +80,19 @@ class PoolAdder(object):
         else:
             return False
 
+#爬取ip地址
     def add_to_queue(self):
         print('PoolAdder is working')
         proxy_count = 0
         while not self.is_over_threshold():
-            for callback_label in range(self._crawler.__CrawlFuncCount__):
-                callback = self._crawler.__CrawlFunc__[callback_label]
-                raw_proxies = self._crawler.get_raw_proxies(callback)
-                # test crawled proxies
+            #从FreeProxyGetter类的__CrawlFun__属性里面取出爬虫函数名字
+            for callback_label in self._crawler.__CrawlFunc__:
+                #执行爬虫函数，得到爬取到的代理ip地址
+                raw_proxies = self._crawler.get_raw_proxies(callback_label)
+                # 测试每个ip地址，有效才加入redis
                 self._tester.set_raw_proxies(raw_proxies)
                 self._tester.test()
+                #检测获取到的ip地址数量，达到最大数量就停止获取
                 proxy_count += len(raw_proxies)
                 if self.is_over_threshold():
                     print('IP is enough, waiting to be used')
@@ -96,8 +101,10 @@ class PoolAdder(object):
                 raise ResourceDepletionError
 
 
+#定时任务，
 class Schedule(object):
     @staticmethod
+    #检查redis池里面的ip地址，无效就剔除然后重新获取，有效就不做操作
     def valid_proxy(cycle=VALID_CHECK_CYCLE):
         """
         Get half of proxies which in redis
@@ -106,6 +113,7 @@ class Schedule(object):
         tester = ValidityTester()
         while True:
             print('Refreshing ip')
+            #取出一半IP地址
             count = int(0.5 * conn.queue_len)
             if count == 0:
                 print('Waiting for adding')
@@ -117,6 +125,7 @@ class Schedule(object):
             time.sleep(cycle)
 
     @staticmethod
+    #检查redis队列的ip地址数量是否足够，不够就去获取新的ip，足够就不做任何操作
     def check_pool(lower_threshold=POOL_LOWER_THRESHOLD,
                    upper_threshold=POOL_UPPER_THRESHOLD,
                    cycle=POOL_LEN_CHECK_CYCLE):
@@ -132,6 +141,9 @@ class Schedule(object):
 
     def run(self):
         print('Ip processing running')
+        #开启两条线程：
+        # 1、执行从redis队列中取出ip进行有效性检查，
+        # 2、爬取免费代理ip放入redis
         valid_process = Process(target=Schedule.valid_proxy)
         check_process = Process(target=Schedule.check_pool)
         valid_process.start()

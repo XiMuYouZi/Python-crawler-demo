@@ -1,17 +1,34 @@
-class Xiaorui:
+from decimal import Decimal
+
+########################################################################
+class Fees(object):
+    """"""
+
+    # ----------------------------------------------------------------------
     def __init__(self):
-        self.name = 'fengyun'
+        """Constructor"""
+        self._fee = None
 
-        def setName(self, name):
-            self.name = name
+    # ----------------------------------------------------------------------
+    @property
+    def fee(self):
+        """
+        Return the current fee
+        """
+        return self._fee
 
-        def getName(self):
-            return self.name
+    # ----------------------------------------------------------------------
+    @fee.setter
+    def fee(self, value):
+        """
+        Set the fee
+        """
+        if isinstance(value, str):
+            self._fee = Decimal(value)
+        elif isinstance(value, Decimal):
+            self._fee = value
 
-        def greet(self):
-            print('Hello, i’m % s' % self.name)
-
-
-foo = Xiaorui()
-print(getattr(Xiaorui, 'greet', 'not found'))
-print(getattr(foo, 'age', 'not foun'))
+if __name__ == '__main__':
+    f = Fees()
+    f.fee = '222'
+    print(f.fee)

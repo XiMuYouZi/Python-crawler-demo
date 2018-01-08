@@ -1,5 +1,5 @@
-from JDSpider.Spider import *
-from haixinSpider.parseHtml import *
+from Crawler.JDSpider.Spider import *
+from Crawler.haixinSpider.parseHtml import *
 
 def main():
     spider = JDSpider()

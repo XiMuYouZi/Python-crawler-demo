@@ -1,50 +1,5 @@
-[INFO  - 2017-12-06T06:58:38.393Z] GhostDriver - Main - running on port 60863
-[INFO  - 2017-12-06T06:58:38.759Z] Session [e2ee7020-da52-11e7-bea9-853bd0b6eab0] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":false,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2017-12-06T06:58:38.759Z] Session [e2ee7020-da52-11e7-bea9-853bd0b6eab0] - page.customHeaders:  - {}
-[INFO  - 2017-12-06T06:58:38.759Z] Session [e2ee7020-da52-11e7-bea9-853bd0b6eab0] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2017-12-06T06:58:38.759Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: e2ee7020-da52-11e7-bea9-853bd0b6eab0
-[ERROR - 2017-12-06T06:58:41.406Z] Session [e2ee7020-da52-11e7-bea9-853bd0b6eab0] - page.onError - msg: ReferenceError: Can't find variable: jQuery
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-12-06T06:58:41.407Z] Session [e2ee7020-da52-11e7-bea9-853bd0b6eab0] - page.onError - stack:
-  global code (https://wl.jd.com/wl.js:1)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-12-06T06:58:41.407Z] Session [e2ee7020-da52-11e7-bea9-853bd0b6eab0] - page.onError - msg: ReferenceError: Can't find variable: $
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-12-06T06:58:41.407Z] Session [e2ee7020-da52-11e7-bea9-853bd0b6eab0] - page.onError - stack:
-  (anonymous function) (https://www.jd.com/:762)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-12-06T06:58:41.408Z] Session [e2ee7020-da52-11e7-bea9-853bd0b6eab0] - page.onError - msg: ReferenceError: Can't find variable: Promos
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-12-06T06:58:41.408Z] Session [e2ee7020-da52-11e7-bea9-853bd0b6eab0] - page.onError - stack:
-  (anonymous function) (https://www.jd.com/:826)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-12-06T06:58:41.408Z] Session [e2ee7020-da52-11e7-bea9-853bd0b6eab0] - page.onError - msg: ReferenceError: Can't find variable: Promos
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-12-06T06:58:41.408Z] Session [e2ee7020-da52-11e7-bea9-853bd0b6eab0] - page.onError - stack:
-  (anonymous function) (https://www.jd.com/:829)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-12-06T06:58:41.408Z] Session [e2ee7020-da52-11e7-bea9-853bd0b6eab0] - page.onError - msg: ReferenceError: Can't find variable: Promos
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-12-06T06:58:41.408Z] Session [e2ee7020-da52-11e7-bea9-853bd0b6eab0] - page.onError - stack:
-  (anonymous function) (https://www.jd.com/:832)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-12-06T06:58:41.409Z] Session [e2ee7020-da52-11e7-bea9-853bd0b6eab0] - page.onError - msg: ReferenceError: Can't find variable: Promos
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-12-06T06:58:41.409Z] Session [e2ee7020-da52-11e7-bea9-853bd0b6eab0] - page.onError - stack:
-  (anonymous function) (https://www.jd.com/:838)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-12-06T06:58:41.859Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1512543521829
-
-  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-01-06T03:07:15.895Z] GhostDriver - Main - running on port 59879
+[INFO  - 2018-01-06T03:07:16.693Z] Session [b3618500-f28e-11e7-911b-cbb75ea82c4f] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":false,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-01-06T03:07:16.693Z] Session [b3618500-f28e-11e7-911b-cbb75ea82c4f] - page.customHeaders:  - {}
+[INFO  - 2018-01-06T03:07:16.693Z] Session [b3618500-f28e-11e7-911b-cbb75ea82c4f] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-01-06T03:07:16.693Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b3618500-f28e-11e7-911b-cbb75ea82c4f

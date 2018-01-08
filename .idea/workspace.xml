@@ -1,11 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d93ce969-97a9-4c06-8556-4368d784a3d4" name="Default" comment="使用selenium+chrome headerless抓取京东商品数据">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDemo/MetaClass.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDemo/test1.py" />
+    <list default="true" id="d93ce969-97a9-4c06-8556-4368d784a3d4" name="Default" comment="添加元类演示demo">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ ThirdParty/.idea/ ThirdParty.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ ThirdParty/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ ThirdParty/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ ThirdParty/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/api.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/config.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/db.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/error.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/generator.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/importer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/scheduler.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/tester.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/verify.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/importer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/run.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/CookiesPool/tests/login.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/examples/example.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/examples/example_round_proxy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/api.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/db.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/error.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/getter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/schedule.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/setting.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/run.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/setup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Api/ProxyApi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Api/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Config.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/DB/DbClient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/DB/MongodbClient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/DB/RedisClient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/DB/SsdbClient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/DB/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Dockerfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Manager/ProxyManager.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Manager/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/ProxyGetter/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/ProxyGetter/getFreeProxy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Run/main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Schedule/ProxyCheck.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Schedule/ProxyRefreshSchedule.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Schedule/ProxyValidSchedule.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Schedule/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Test/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Test/testGetConfig.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Test/testGetFreeProxy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Test/testLogHandler.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Test/testWebRequest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Util/EnvUtil.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Util/GetConfig.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Util/LogHandler.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Util/WebRequest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Util/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Util/utilClass.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/Util/utilFunction.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/_config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/doc/introduce.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/doc/release_notes.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/log/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ Third-party/proxy-pool-1/test.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/zhihu.py" afterPath="$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/zhihu.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Crawler/JDSpider/Spider.py" afterPath="$PROJECT_DIR$/Crawler/JDSpider/Spider.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Crawler/JDSpider/Test.py" afterPath="$PROJECT_DIR$/Crawler/JDSpider/Test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Crawler/JDSpider/ghostdriver.log" afterPath="$PROJECT_DIR$/Crawler/JDSpider/ghostdriver.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDemo/MetaClass.py" afterPath="$PROJECT_DIR$/TestDemo/MetaClass.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDemo/test1.py" afterPath="$PROJECT_DIR$/TestDemo/test1.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,28 +94,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/$WXRobo.coverage" NAME="WXRobo Coverage Results" MODIFIED="1501729919105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$sql.coverage" NAME="sql Coverage Results" MODIFIED="1510994833220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine" />
-    <SUITE FILE_PATH="coverage/$entrypoint.coverage" NAME="entrypoint Coverage Results" MODIFIED="1513394721967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/TestSpider" />
     <SUITE FILE_PATH="coverage/$dingdianxiaoshuo.coverage" NAME="dingdianxiaoshuo Coverage Results" MODIFIED="1512533271972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dingdian/dingdian/spiders" />
-    <SUITE FILE_PATH="coverage/$Unittests_in_Test_py.coverage" NAME="Unittests in Test.py Coverage Results" MODIFIED="1512543535311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JDSpider" />
+    <SUITE FILE_PATH="coverage/$Unittests_in_Test_py.coverage" NAME="Unittests in Test.py Coverage Results" MODIFIED="1515208062456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawler/JDSpider" />
     <SUITE FILE_PATH="coverage/$zhihu.coverage" NAME="zhihu Coverage Results" MODIFIED="1513236275772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/TestSpider/spiders" />
-    <SUITE FILE_PATH="coverage/$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1513160050870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
-    <SUITE FILE_PATH="coverage/$Unittests_in_testFun_py.coverage" NAME="Unittests in MetaClass.py Coverage Results" MODIFIED="1515142900521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestDemo" />
-    <SUITE FILE_PATH="coverage/$Spider.coverage" NAME="Spider Coverage Results" MODIFIED="1503202803760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JDSpider" />
     <SUITE FILE_PATH="coverage/$meizitu.coverage" NAME="meizitu Coverage Results" MODIFIED="1512877026679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MeiZiTu" />
     <SUITE FILE_PATH="coverage/$JDSpider__1_.coverage" NAME="JDSpider (1) Coverage Results" MODIFIED="1512537482640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JDSpiders" />
-    <SUITE FILE_PATH="coverage/$Unittests_in_test1_py.coverage" NAME="Unittests in test1.py Coverage Results" MODIFIED="1515143037827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestDemo" />
+    <SUITE FILE_PATH="coverage/$run.coverage" NAME="run Coverage Results" MODIFIED="1515378301213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ Third-party/Proxy-Pool-2" />
+    <SUITE FILE_PATH="coverage/$Unittests_in_test1_py.coverage" NAME="Unittests in test1.py Coverage Results" MODIFIED="1515381069813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestDemo" />
+    <SUITE FILE_PATH="coverage/$Unittests_in_schedule_py.coverage" NAME="Unittests in schedule.py Coverage Results" MODIFIED="1515382824606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool" />
     <SUITE FILE_PATH="coverage/$.coverage" NAME="代码 Coverage Results" MODIFIED="1513404632743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/$spider__1_.coverage" NAME="spider (1) Coverage Results" MODIFIED="1503034295423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haixinSpider" />
     <SUITE FILE_PATH="coverage/$github.coverage" NAME="github Coverage Results" MODIFIED="1513158431242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/TestSpider/spiders" />
     <SUITE FILE_PATH="coverage/$entrypoint__1_.coverage" NAME="entrypoint (1) Coverage Results" MODIFIED="1513247991547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dingdian/dingdian" />
-    <SUITE FILE_PATH="coverage/$Test.coverage" NAME="Test Coverage Results" MODIFIED="1508637804711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JDSpider" />
-    <SUITE FILE_PATH="coverage/$JDSpider.coverage" NAME="JDSpider Coverage Results" MODIFIED="1512537628424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JDSpider" />
     <SUITE FILE_PATH="coverage/$baidu.coverage" NAME="baidu Coverage Results" MODIFIED="1512179277502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test1/test1/spiders" />
     <SUITE FILE_PATH="coverage/$spider.coverage" NAME="spider Coverage Results" MODIFIED="1501755025778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/$Unittests_in_spider_py.coverage" NAME="Unittests in spider.py Coverage Results" MODIFIED="1513305818363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haixinSpider" />
     <SUITE FILE_PATH="coverage/$Config.coverage" NAME="Config Coverage Results" MODIFIED="1512537936056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JDSpiders" />
+    <SUITE FILE_PATH="coverage/$run__3_.coverage" NAME="run (3) Coverage Results" MODIFIED="1515386344913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ThirdParty/ProxyPool2" />
+    <SUITE FILE_PATH="coverage/$WXRobo.coverage" NAME="WXRobo Coverage Results" MODIFIED="1501729919105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$entrypoint.coverage" NAME="entrypoint Coverage Results" MODIFIED="1513394721967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/TestSpider" />
+    <SUITE FILE_PATH="coverage/$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1513160050870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/$Unittests_in_testFun_py.coverage" NAME="Unittests in MetaClass.py Coverage Results" MODIFIED="1515142900521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestDemo" />
+    <SUITE FILE_PATH="coverage/$Spider.coverage" NAME="Spider Coverage Results" MODIFIED="1503202803760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JDSpider" />
+    <SUITE FILE_PATH="coverage/$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1515378830054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ ThirdParty/ProxyPool2" />
+    <SUITE FILE_PATH="coverage/$api.coverage" NAME="api Coverage Results" MODIFIED="1515380064407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool" />
+    <SUITE FILE_PATH="coverage/$Test.coverage" NAME="Test Coverage Results" MODIFIED="1508637804711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JDSpider" />
+    <SUITE FILE_PATH="coverage/$JDSpider.coverage" NAME="JDSpider Coverage Results" MODIFIED="1512537628424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JDSpider" />
+    <SUITE FILE_PATH="coverage/$run__2_.coverage" NAME="run (2) Coverage Results" MODIFIED="1515378910458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawler/ProxyPool2" />
+    <SUITE FILE_PATH="coverage/$Unittests_in_spider_py.coverage" NAME="Unittests in spider.py Coverage Results" MODIFIED="1513305818363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haixinSpider" />
+    <SUITE FILE_PATH="coverage/$MetaClass.coverage" NAME="MetaClass Coverage Results" MODIFIED="1515153395756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestDemo" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -53,25 +139,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MetaClass.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TestDemo/MetaClass.py">
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="74" column="6" lean-forward="false" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
+            <state relative-caret-position="152">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schedule.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/schedule.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="62" column="6" lean-forward="false" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
               <folding>
-                <marker date="1515143423000" expanded="true" signature="1940:1966" ph="insert into missing_value... " />
-                <marker date="1515143423000" expanded="true" signature="1940:1967" ph="insert into missing_value... " />
-                <marker date="1515143423000" expanded="true" signature="1940:1970" ph="insert into missing_value... " />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestDemo/test1.py">
+      <file leaf-file-name="SsdbClient.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/DB/SsdbClient.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setting.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/setting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/getter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/db.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1026">
+              <caret line="54" column="27" lean-forward="true" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/error.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -89,17 +227,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>2333333333</find>
-      <find>feed</find>
-      <find>down</find>
-      <find>ex</find>
-      <find>exten</find>
-      <find>REDIRECT_ENABLED</find>
-      <find>RANDOMIZE_DOWNLOAD_DELAY</find>
-      <find>dingdian</find>
-      <find>dingdian.</find>
-      <find>dingdian.di</find>
-      <find>dingdian.ding</find>
       <find>dingdian.dingdian</find>
       <find>DOWNLOADER_MIDDLEWARES</find>
       <find>DEPTH</find>
@@ -119,6 +246,17 @@
       <find>process_link</find>
       <find>getHtmlTree</find>
       <find>TESTER_MAP</find>
+      <find>set_raw_proxies</find>
+      <find>check_pool</find>
+      <find>VAL</find>
+      <find>VALI</find>
+      <find>VALID</find>
+      <find>VALID_</find>
+      <find>VALID_CH</find>
+      <find>VALID_CHE</find>
+      <find>VALID_CHEC</find>
+      <find>VALID_CHECK</find>
+      <find>PoolAdder</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -134,30 +272,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine/__init__.py" />
-        <option value="$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine/sql.py" />
-        <option value="$PROJECT_DIR$/test1/test1/entrypoint.py" />
-        <option value="$PROJECT_DIR$/test1/test1/settings.py" />
-        <option value="$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine/MongoHandler.py" />
-        <option value="$PROJECT_DIR$/dingdian/dingdian/items.py" />
-        <option value="$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine/MongoPipeline.py" />
-        <option value="$PROJECT_DIR$/dingdian/dingdian/mySqlPipeLine/pipeline.py" />
-        <option value="$PROJECT_DIR$/test1/test1/items.py" />
-        <option value="$PROJECT_DIR$/dingdian/scrapy.cfg" />
-        <option value="$PROJECT_DIR$/dingdian/dingdian/settings.py" />
-        <option value="$PROJECT_DIR$/test1/test1/spiders/baidu.py" />
-        <option value="$PROJECT_DIR$/JDSpiders/JDSpider.py" />
-        <option value="$PROJECT_DIR$/JDSpider/JDSpider.py" />
-        <option value="$PROJECT_DIR$/JDSpider/Test.py" />
-        <option value="$PROJECT_DIR$/Test/test.py" />
-        <option value="$PROJECT_DIR$/MeiZiTu/meizitu.py" />
-        <option value="$PROJECT_DIR$/haixinSpider/parseHtml.py" />
-        <option value="$PROJECT_DIR$/JDSpider/Spider.py" />
-        <option value="$PROJECT_DIR$/MeiZiTu/DownLoad.py" />
-        <option value="$USER_HOME$/Downloads/jquery.fancybox.min.css" />
-        <option value="$USER_HOME$/Downloads/jquery.fancybox.min.js" />
-        <option value="$PROJECT_DIR$/Test/test1.py" />
-        <option value="$PROJECT_DIR$/Test/scrapy.cfg" />
         <option value="$PROJECT_DIR$/Test/TestSpider/spiders/github.py" />
         <option value="$PROJECT_DIR$/haixinSpider/doubanTop250.py" />
         <option value="$PROJECT_DIR$/Test/TestSpider/spiders/doubanTop250.py" />
@@ -181,10 +295,34 @@
         <option value="$PROJECT_DIR$/Test/TestSpider/spiders/weixin.py" />
         <option value="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/examples/example_round_proxy.py" />
         <option value="$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/zhihu.py" />
-        <option value="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/schedule.py" />
         <option value="$PROJECT_DIR$/TestDemo/testFun.py" />
-        <option value="$PROJECT_DIR$/TestDemo/test1.py" />
         <option value="$PROJECT_DIR$/TestDemo/MetaClass.py" />
+        <option value="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/utils.py" />
+        <option value="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/getter.py" />
+        <option value="$PROJECT_DIR$/Crawler/JDSpider/Spider.py" />
+        <option value="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/setting.py" />
+        <option value="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/run.py" />
+        <option value="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/schedule.py" />
+        <option value="$PROJECT_DIR$/ Third_party/Proxy_Pool_2/run.py" />
+        <option value="$PROJECT_DIR$/ ThirdParty/ProxyPool2/run.py" />
+        <option value="$PROJECT_DIR$/Crawler/ProxyPool2/__init__.py" />
+        <option value="$PROJECT_DIR$/Crawler/ProxyPool2/run.py" />
+        <option value="$PROJECT_DIR$/ ThirdParty/__init__.py" />
+        <option value="$PROJECT_DIR$/ ThirdParty/proxyPool1/test.py" />
+        <option value="$PROJECT_DIR$/Vender/proxyPool1/test.py" />
+        <option value="$PROJECT_DIR$/Example/__init__.py" />
+        <option value="$PROJECT_DIR$/ThirdParty/__init__.py" />
+        <option value="$PROJECT_DIR$/Crawler/JDSpider/Test.py" />
+        <option value="$PROJECT_DIR$/1.py" />
+        <option value="$PROJECT_DIR$/2.py" />
+        <option value="$PROJECT_DIR$/www.py" />
+        <option value="$PROJECT_DIR$/TestDemo/test1.py" />
+        <option value="$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/api.py" />
+        <option value="$PROJECT_DIR$/ThirdParty/ProxyPool2/run.py" />
+        <option value="$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/utils.py" />
+        <option value="$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/db.py" />
+        <option value="$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/getter.py" />
+        <option value="$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/schedule.py" />
       </list>
     </option>
   </component>
@@ -216,6 +354,128 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Extensions" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.intellij.database" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyPsiNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="代码" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="代码" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="代码" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="代码" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThirdParty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProxyPool2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="代码" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="代码" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThirdParty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProxyPool2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proxypool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="代码" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="代码" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThirdParty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProxyPool2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="代码" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="代码" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThirdParty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="代码" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="代码" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Default">
           <PATH>
@@ -296,168 +556,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=" Third-party" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proxy-Pool-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=" Third-party" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proxy-Pool-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proxypool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=" Third-party" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proxy-Pool-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=" Third-party" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=" Third-party" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CookiesPool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=" Third-party" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CookiesPool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cookiespool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Extensions" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.intellij.database" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyPsiNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -466,7 +564,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="FullScreen" value="true" />
@@ -501,75 +599,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test1.py">
-    <configuration default="false" name="entrypoint" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.run (3)">
+    <configuration default="false" name="run (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test/TestSpider" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Crawler/ProxyPool2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="代码" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/TestSpider/entrypoint.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Crawler/ProxyPool2/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in spider.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/haixinSpider" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="代码" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/haixinSpider/spider.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
-    </configuration>
-    <configuration default="false" name="entrypoint (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="api" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dingdian/dingdian" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="代码" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dingdian/dingdian/entrypoint.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/api.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in MetaClass.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestDemo" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="代码" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestDemo/MetaClass.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
     <configuration default="false" name="Unittests in test1.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -585,6 +651,41 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/TestDemo/test1.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="run (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ThirdParty/ProxyPool2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="代码" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ThirdParty/ProxyPool2/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in schedule.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="代码" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/schedule.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
@@ -757,19 +858,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.代码" />
-      <item index="1" class="java.lang.String" itemvalue="Python.entrypoint" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in spider.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python.entrypoint (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in MetaClass.py" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in test1.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python.run (2)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.api" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test1.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python.run (3)" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in schedule.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test1.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in MetaClass.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python.entrypoint" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in spider.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python.entrypoint (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.run (3)" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in schedule.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test1.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python.api" />
+        <item index="4" class="java.lang.String" itemvalue="Python.run (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -808,38 +909,45 @@
       <option name="project" value="LOCAL" />
       <updated>1503122474392</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="使用selenium+chrome headerless抓取京东商品数据">
+      <created>1515143513872</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1515143513873</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_MetaClass_py - 2018.01.05 at 17h 00m 10s.xml">
-      <configuration name="Unittests in MetaClass.py" configurationId="tests" />
+    <history-entry file="Unittests_in_Test_py - 2018.01.06 at 11h 07m 11s.xml">
+      <configuration name="Unittests in Test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_MetaClass_py - 2018.01.05 at 17h 01m 40s.xml">
-      <configuration name="Unittests in MetaClass.py" configurationId="tests" />
+    <history-entry file="Unittests_in_Test_py - 2018.01.06 at 11h 07m 20s.xml">
+      <configuration name="Unittests in Test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test1_py - 2018.01.05 at 17h 01m 43s.xml">
+    <history-entry file="Unittests_in_Test_py - 2018.01.06 at 11h 08m 00s.xml">
+      <configuration name="Unittests in Test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_schedule_py - 2018.01.08 at 11h 40m 24s.xml">
+      <configuration name="Unittests in schedule.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test1_py - 2018.01.06 at 08h 43m 31s.xml">
       <configuration name="Unittests in test1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test1_py - 2018.01.05 at 17h 02m 04s.xml">
+    <history-entry file="Unittests_in_test1_py - 2018.01.06 at 08h 43m 54s.xml">
       <configuration name="Unittests in test1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test1_py - 2018.01.05 at 17h 02m 51s.xml">
+    <history-entry file="Unittests_in_test1_py - 2018.01.06 at 08h 45m 32s.xml">
       <configuration name="Unittests in test1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test1_py - 2018.01.05 at 17h 03m 14s.xml">
+    <history-entry file="Unittests_in_test1_py - 2018.01.06 at 08h 46m 01s.xml">
       <configuration name="Unittests in test1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test1_py - 2018.01.05 at 17h 03m 23s.xml">
+    <history-entry file="Unittests_in_test1_py - 2018.01.06 at 08h 46m 08s.xml">
       <configuration name="Unittests in test1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test1_py - 2018.01.05 at 17h 03m 31s.xml">
-      <configuration name="Unittests in test1.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test1_py - 2018.01.05 at 17h 03m 44s.xml">
-      <configuration name="Unittests in test1.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test1_py - 2018.01.05 at 17h 03m 57s.xml">
+    <history-entry file="Unittests_in_test1_py - 2018.01.08 at 11h 11m 10s.xml">
       <configuration name="Unittests in test1.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -854,18 +962,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17095852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="539" y="0" width="841" height="1003" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32409638" sideWeight="0.50858366" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31445783" sideWeight="0.49427754" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32168674" sideWeight="0.49427754" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2686747" sideWeight="0.4914163" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27108434" sideWeight="0.49427754" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2550586" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28313252" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17739628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="539" y="0" width="841" height="1003" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2550586" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4493976" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -875,7 +985,6 @@
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -916,6 +1025,7 @@
     <MESSAGE value="抓取淘宝页面数据" />
     <MESSAGE value="使用selenium+chrome headerless抓取京东商品数据" />
     <option name="LAST_COMMIT_MESSAGE" value="使用selenium+chrome headerless抓取京东商品数据" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -934,252 +1044,221 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/proxy_pool-master/test.py" />
-    <entry file="file://$PROJECT_DIR$/proxy_pool-master/Test/testGetConfig.py" />
-    <entry file="file://$PROJECT_DIR$/proxy_pool-master/Test/testGetFreeProxy.py" />
-    <entry file="file://$PROJECT_DIR$/proxy_pool-master/Schedule/ProxyCheck.py" />
-    <entry file="file://$PROJECT_DIR$/proxy_pool-master/Schedule/ProxyRefreshSchedule.py" />
-    <entry file="file://$PROJECT_DIR$/proxy_pool-master/Schedule/ProxyValidSchedule.py" />
-    <entry file="file://$PROJECT_DIR$/proxy_pool-master/ProxyGetter/getFreeProxy.py" />
-    <entry file="file://$PROJECT_DIR$/proxy_pool-master/Util/utilFunction.py" />
-    <entry file="file://$PROJECT_DIR$/proxy_pool-master/Util/WebRequest.py" />
-    <entry file="file://$PROJECT_DIR$/ProxyPool-master/proxypool/schedule.py" />
-    <entry file="file://$PROJECT_DIR$/Test/TestSpider/spiders/weixin.py" />
-    <entry file="file://$PROJECT_DIR$/Proxy-Pool-2/setup.py" />
-    <entry file="file://$PROJECT_DIR$/proxy-pool-1/requirements.txt" />
-    <entry file="file://$PROJECT_DIR$/Proxy-Pool-2/requirements.txt" />
-    <entry file="file://$PROJECT_DIR$/Proxy-Pool-2/run.py" />
-    <entry file="file://$PROJECT_DIR$/Proxy-Pool-2/proxypool/db.py" />
-    <entry file="file://$PROJECT_DIR$/Test/TestSpider/config.py" />
-    <entry file="file://$PROJECT_DIR$/Proxy-Pool-2/proxypool/schedule.py" />
-    <entry file="file://$PROJECT_DIR$/proxy-pool-1/DB/MongodbClient.py" />
-    <entry file="file://$PROJECT_DIR$/proxy-pool-1/DB/SsdbClient.py" />
-    <entry file="file://$PROJECT_DIR$/proxy-pool-1/DB/RedisClient.py" />
-    <entry file="file://$PROJECT_DIR$/proxy-pool-1/DB/DbClient.py" />
-    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/db.py">
+    <entry file="file://$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/tester.py" />
+    <entry file="file://$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/generator.py" />
+    <entry file="file://$PROJECT_DIR$/Crawler/JDSpider/Spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        <state relative-caret-position="-36">
+          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+          <folding>
+            <element signature="e#41#50#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ Third-party/proxy-pool-1/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/TestDemo/MetaClass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="-46">
+          <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding>
+            <marker date="1515197638000" expanded="true" signature="2425:2451" ph="insert into missing_value... " />
+            <marker date="1515197638000" expanded="true" signature="2425:2452" ph="insert into missing_value... " />
+            <marker date="1515197638000" expanded="true" signature="2425:2455" ph="insert into missing_value... " />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ Third-party/proxy-pool-1/Config.ini">
+    <entry file="file://$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/db.py" />
+    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/error.py" />
+    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/api.py" />
+    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/getter.py" />
+    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/utils.py" />
+    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/setup.py" />
+    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/setting.py" />
+    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/requirements.txt" />
+    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/run.py" />
+    <entry file="file://$PROJECT_DIR$/ Third-party/proxy-pool-1/Api/ProxyApi.py" />
+    <entry file="file://$PROJECT_DIR$/ Third-party/proxy-pool-1/Schedule/ProxyCheck.py" />
+    <entry file="file://$PROJECT_DIR$/ Third-party/proxy-pool-1/Schedule/ProxyRefreshSchedule.py" />
+    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/db.py" />
+    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/schedule.py" />
+    <entry file="file://$PROJECT_DIR$/ Third_party/Proxy_Pool_2/run.py" />
+    <entry file="file://$PROJECT_DIR$/ ThirdParty/ProxyPool2/run.py" />
+    <entry file="file://$PROJECT_DIR$/Crawler/ProxyPool2/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/ ThirdParty/proxyPool1/Schedule/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/ ThirdParty/proxyPool1/Test/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/ ThirdParty/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/ ThirdParty/proxyPool1/test.py" />
+    <entry file="file://$PROJECT_DIR$/Vender/proxyPool1/test.py" />
+    <entry file="file://$PROJECT_DIR$/Example/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Crawler/ProxyPool2/run.py" />
+    <entry file="file://$PROJECT_DIR$/ThirdParty/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ Third-party/proxy-pool-1/Api/ProxyApi.py">
+    <entry file="file://$PROJECT_DIR$/eee.py" />
+    <entry file="file://$PROJECT_DIR$/www.py" />
+    <entry file="file://$PROJECT_DIR$/Crawler/JDSpider/Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="49" column="23" lean-forward="false" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+        <state relative-caret-position="247">
+          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#37#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/examples/example.py">
+    <entry file="file://$PROJECT_DIR$/TestDemo/test1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        <state relative-caret-position="570">
+          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/examples/example_round_proxy.py">
+    <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        <state relative-caret-position="76">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/weixin.py">
+    <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1241">
-          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        <state relative-caret-position="-145">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/zhihu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="53" column="49" lean-forward="true" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Crawler/Test/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/github.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-595">
-          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/baidu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/doubanbook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3544">
-          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/importer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="247">
+          <caret line="17" column="144" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="144" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/utils.py">
+    <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-137">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="false" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/setting.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/fake_useragent/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="244">
+          <caret line="87" column="40" lean-forward="true" selection-start-line="87" selection-start-column="40" selection-end-line="87" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/config.py">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/redis/connection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="10" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="10" />
+        <state relative-caret-position="49">
+          <caret line="438" column="34" lean-forward="true" selection-start-line="438" selection-start-column="34" selection-end-line="438" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/tester.py">
+    <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/examples/example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="361">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="54" column="27" lean-forward="true" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/error.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/base_events.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="428" column="43" lean-forward="true" selection-start-line="428" selection-start-column="43" selection-end-line="428" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/getter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/distutils/command/sdist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool/schedule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="62" column="6" lean-forward="false" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/getter.py">
+    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/DB/SsdbClient.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#27#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/scheduler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ Third-party/CookiesPool/cookiespool/db.py">
+    <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool2/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="152">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/schedule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-791">
-          <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2017.1/python_stubs/-2010535109/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="167" column="4" lean-forward="false" selection-start-line="167" selection-start-column="4" selection-end-line="167" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestDemo/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestDemo/MetaClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="74" column="6" lean-forward="false" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
-          <folding>
-            <marker date="1515143423000" expanded="true" signature="1940:1966" ph="insert into missing_value... " />
-            <marker date="1515143423000" expanded="true" signature="1940:1967" ph="insert into missing_value... " />
-            <marker date="1515143423000" expanded="true" signature="1940:1970" ph="insert into missing_value... " />
-          </folding>
         </state>
       </provider>
     </entry>

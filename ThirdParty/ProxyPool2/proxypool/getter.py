@@ -1,8 +1,10 @@
-from .utils import get_page
+from ThirdParty.ProxyPool2.proxypool.utils import get_page
 from pyquery import PyQuery as pq
 import re
 
 
+#爬虫函数的元类，加入了两个属性，__CrawlFunc__和__CrawlFuncCount__，前者是其他以自己为元类的class需要定义的具有爬虫功能的函数，必须用craw_开头，这些函数
+#会被加入attrs['__CrawlFunc__']属性里面，attrs['__CrawlFuncCount__']则会记录爬虫函数的数量
 class ProxyMetaclass(type):
     """
         元类，在FreeProxyGetter类中加入
@@ -11,6 +13,7 @@ class ProxyMetaclass(type):
     """
     def __new__(cls, name, bases, attrs):
         count = 0
+        #attrs 包括了已自己为元类的类的属性和方法
         attrs['__CrawlFunc__'] = []
         for k, v in attrs.items():
             if 'crawl_' in k:
@@ -24,8 +27,10 @@ class FreeProxyGetter(object, metaclass=ProxyMetaclass):
     def get_raw_proxies(self, callback):
         proxies = []
         print('Callback', callback)
+        #eval可以将字符串str当成有效的表达式来求值并返回计算结果
         for proxy in eval("self.{}()".format(callback)):
             print('Getting', proxy, 'from', callback)
+            #每个爬虫函数都是yield，所以for循环取出获取到的ip，然后加入list，并返回
             proxies.append(proxy)
         return proxies
 

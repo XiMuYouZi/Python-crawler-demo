@@ -6,9 +6,8 @@ from fake_useragent import UserAgent
 import random
 
 def get_page(url, options={}):
-    ua = UserAgent()
     base_headers = {
-        'User-Agent':  ua.random,
+        'User-Agent':  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36',
         'Accept-Encoding': 'gzip, deflate, sdch',
         'Accept-Language': 'zh-CN,zh;q=0.8'
     }
@@ -26,7 +25,7 @@ def get_page(url, options={}):
 
 class Downloader(object):
     """
-    一个异步下载器，可以对代理源异步抓取，但是容易被BAN。
+    一个异步下载器，可以对代理源异步抓取，但是容易被BAN，因为是异步下载，速度非常快，不想上面的request是同步下载网页
     """
 
     def __init__(self, urls):

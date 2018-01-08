@@ -1,6 +1,6 @@
 import redis
-from proxypool.error import PoolEmptyError
-from proxypool.setting import HOST, PORT, PASSWORD
+from ThirdParty.ProxyPool2.proxypool.error import PoolEmptyError
+from ThirdParty.ProxyPool2.proxypool.setting import HOST, PORT, PASSWORD
 
 
 class RedisClient(object):
@@ -11,12 +11,14 @@ class RedisClient(object):
             self._db = redis.Redis(host=host, port=port)
 
 
-#从队列左侧拿出许多ip地址进行检测
+#从队列左侧拿出ip地址并删除已经被取出的ip地址
     def get(self, count=1):
         """
         get proxies from redis
         """
+        #取出全部0~count范围内的ip
         proxies = self._db.lrange("proxies", 0, count - 1)
+        #删除0~count范围的ip
         self._db.ltrim("proxies", count, -1)
         return proxies
 
@@ -29,7 +31,7 @@ class RedisClient(object):
         self._db.rpush("proxies", proxy)
 
 
-#从队列右侧拿出有效的ip
+#移除并返回redis队列中最后一个IP地址
     def pop(self):
         """
         get proxy from right.
