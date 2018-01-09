@@ -2,13 +2,11 @@ import requests
 import asyncio
 import aiohttp
 from requests.exceptions import ConnectionError
-from fake_useragent import UserAgent
 import random
 
 def get_page(url, options={}):
-    ua = UserAgent()
     base_headers = {
-        'User-Agent':  ua.random,
+        'User-Agent':  'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3080.5 Safari/537.36',
         'Accept-Encoding': 'gzip, deflate, sdch',
         'Accept-Language': 'zh-CN,zh;q=0.8'
     }

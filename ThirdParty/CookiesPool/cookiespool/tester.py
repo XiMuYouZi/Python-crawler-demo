@@ -2,8 +2,8 @@ import json
 from bs4 import BeautifulSoup
 import requests
 from requests.exceptions import ConnectionError
-from cookiespool.db import *
-from cookiespool.generator import WeiboCookiesGenerator
+from ThirdParty.CookiesPool.cookiespool.db import *
+from ThirdParty.CookiesPool.cookiespool.generator import WeiboCookiesGenerator
 
 
 class ValidTester(object):

@@ -12,8 +12,8 @@ REDIS_DOMAIN = '*'
 REDIS_NAME = '*'
 
 # 云打码相关配置到yundama.com申请注册
-YUNDAMA_USERNAME = ''
-YUNDAMA_PASSWORD = ''
+YUNDAMA_USERNAME = '476301176'
+YUNDAMA_PASSWORD = '7605107'
 YUNDAMA_APP_ID = '3372'
 YUNDAMA_APP_KEY = '1b586a30bfda5c7fa71c881075ba49d0'
 
@@ -40,7 +40,7 @@ CYCLE = 120
 
 # API地址和端口
 API_HOST = '127.0.0.1'
-API_PORT = 5000
+API_PORT = 5001
 
 # 进程开关
 # 产生器，模拟登录添加Cookies

@@ -135,9 +135,13 @@ header = \
 
 class parseHtml:
 
-    def  getStaticHtmlConten(self, url):
+    def  getStaticHtmlConten(self, url,cookies,headers):
          try:
-            r = requests.get(url, headers=header)
+            if headers:
+                h = headers
+            else:
+                h = header
+            r = requests.get(url, headers=h,cookies = cookies)
             if r.status_code == 200:
                 r.encoding = r.apparent_encoding
                 text = r.text

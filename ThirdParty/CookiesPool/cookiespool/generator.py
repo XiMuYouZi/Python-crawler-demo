@@ -9,9 +9,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-from cookiespool.config import *
-from cookiespool.db import CookiesRedisClient, AccountRedisClient
-from cookiespool.verify import Yundama
+from ThirdParty.CookiesPool.cookiespool.config import *
+from ThirdParty.CookiesPool.cookiespool.db import CookiesRedisClient, AccountRedisClient
+from ThirdParty.CookiesPool.cookiespool.verify import Yundama
 
 
 class CookiesGenerator(object):
@@ -26,56 +26,68 @@ class CookiesGenerator(object):
         self.account_db = AccountRedisClient(name=self.name)
         self.browser_type = browser_type
 
+    """
+         通过browser参数初始化全局浏览器供模拟登录使用
+         :param browser: 浏览器 PhantomJS/ Chrome
+         :return:
+    """
     def _init_browser(self, browser_type):
-        """
-        通过browser参数初始化全局浏览器供模拟登录使用
-        :param browser: 浏览器 PhantomJS/ Chrome
-        :return:
-        """
         if browser_type == 'PhantomJS':
             caps = DesiredCapabilities.PHANTOMJS
             caps[
                 "phantomjs.page.settings.userAgent"] = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
-            self.browser = webdriver.PhantomJS(desired_capabilities=caps)
+            self.browser = webdriver.PhantomJS(desired_capabilities=caps,executable_path='/Users/Chan/phantomjs-2.1.1-macosx/bin/phantomjs')
             self.browser.set_window_size(1400, 500)
         elif browser_type == 'Chrome':
-            self.browser = webdriver.Chrome()
+            chrome_options = webdriver.ChromeOptions()
+            chrome_options.add_argument('--disable-gpu')
+            chrome_options.add_argument(
+                '--user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3080.5 Safari/537.36')
+            self.browser = webdriver.Chrome(chrome_options=chrome_options,
+                                            executable_path='/Users/Chan/chromeDriver/bin/chromedriver')
 
+    #获取账号的对应的cookie
     def new_cookies(self, username, password):
         raise NotImplementedError
 
+    """
+          根据账户设置新的Cookies
+          :param account:
+          :return:
+          """
     def set_cookies(self, account):
-        """
-        根据账户设置新的Cookies
-        :param account:
-        :return:
-        """
         results = self.new_cookies(account.get('username'), account.get('password'))
         if results:
             username, cookies = results
             print('Saving Cookies to Redis', username, cookies)
             self.cookies_db.set(username, cookies)
 
-
+    """
+         运行, 得到所有账户, 然后顺次模拟登录
+         :return:
+         """
     def run(self):
-        """
-        运行, 得到所有账户, 然后顺次模拟登录
-        :return:
-        """
         accounts = self.account_db.all()
         cookies = self.cookies_db.all()
-        # Account 中对应的用户
+        # Account队列中对应的用户
         accounts = list(accounts)
-        # Cookies中对应的用户
+        print('所有账号：',accounts)
+        # Cookies队列中对应的用户
         valid_users = [cookie.get('username') for cookie in cookies]
-        print('Getting', len(accounts), 'accounts from Redis')
+        print('fetch', len(accounts), 'accounts from Redis')
         if len(accounts):
             self._init_browser(browser_type=self.browser_type)
         for account in accounts:
-            if not account.get('username') in valid_users:
-                print('Getting Cookies of ', self.name, account.get('username'), account.get('password'))
-                self.set_cookies(account)
+            if len(valid_users)==len(accounts):
+                self.close()
+            else:
+                #找到没有存储cookie的账号，然后重新去获取cookie
+                if not account.get('username') in valid_users:
+                    print('fetch Cookies of ', self.name, account.get('username'), account.get('password'))
+                    self.set_cookies(account)
+
         print('Generator Run Finished')
+
 
     def close(self):
         try:
@@ -86,6 +98,8 @@ class CookiesGenerator(object):
             print('Browser not opened')
 
 
+
+#登录http://weibo.cn/后获取的cookie
 class WeiboCookiesGenerator(CookiesGenerator):
     def __init__(self, name='weibo', browser_type=DEFAULT_BROWSER):
         """
@@ -97,22 +111,23 @@ class WeiboCookiesGenerator(CookiesGenerator):
         self.name = name
         self.ydm = Yundama(YUNDAMA_USERNAME, YUNDAMA_PASSWORD, YUNDAMA_APP_ID, YUNDAMA_APP_KEY)
 
+
     def _success(self, username):
         wait = WebDriverWait(self.browser, 5)
         success = wait.until(EC.visibility_of_element_located((By.CLASS_NAME, 'me_portrait_w')))
         if success:
             print('登录成功')
             self.browser.get('http://weibo.cn/')
-
+            #"我的首页"字样出现在浏览器的title里面，标明登录成功了，此时获取cookie并返回之
             if "我的首页" in self.browser.title:
-                print(self.browser.get_cookies())
+                print('成功获取到Cookies：\n',self.browser.get_cookies())
                 cookies = {}
                 for cookie in self.browser.get_cookies():
                     cookies[cookie["name"]] = cookie["value"]
-                print(cookies)
-                print('成功获取到Cookies')
                 return (username, json.dumps(cookies))
 
+
+    #获取账号的cookie
     def new_cookies(self, username, password):
         """
         生成Cookies
@@ -120,28 +135,36 @@ class WeiboCookiesGenerator(CookiesGenerator):
         :param password: 密码
         :return: 用户名和Cookies
         """
-        print('Generating Cookies of', username)
+        print('start fetch Cookies for site:[weibo.cn] with username:', username)
         self.browser.delete_all_cookies()
         self.browser.get('http://my.sina.com.cn/profile/unlogin')
+        # self.browser.refresh()
         wait = WebDriverWait(self.browser, 20)
 
+        #在页面http://my.sina.com.cn/profile/unlogin输入用户名和密码
         try:
             login = wait.until(EC.visibility_of_element_located((By.ID, 'hd_login')))
             login.click()
+            #获取用户名输入框
             user = wait.until(
                 EC.visibility_of_element_located((By.CSS_SELECTOR, '.loginformlist input[name="loginname"]')))
             user.send_keys(username)
+            #获取密码输入框
             psd = wait.until(
                 EC.visibility_of_element_located((By.CSS_SELECTOR, '.loginformlist input[name="password"]')))
             psd.send_keys(password)
+            #获取登录按钮
             submit = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, '.login_btn')))
             submit.click()
+            #如果能直接登录成功，就调用_success函数获取cookie
             try:
                 result = self._success(username)
                 if result:
                     return result
+            #如果登录超时了，说明此时有验证码，获取验证码上传到云打码平台识别后，在和用户名密码一起提交
             except TimeoutException:
                 print('出现验证码，开始识别验证码')
+                #获取验证码图片
                 yzm = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, '.loginform_yzm .yzm')))
                 url = yzm.get_attribute('src')
                 cookies = self.browser.get_cookies()
@@ -149,10 +172,12 @@ class WeiboCookiesGenerator(CookiesGenerator):
                 for cookie in cookies:
                     cookies_dict[cookie.get('name')] = cookie.get('value')
                 response = requests.get(url, cookies=cookies_dict)
+                #上传验证码图片到云打码平台识别
                 result = self.ydm.identify(stream=response.content)
                 if not result:
                     print('验证码识别失败, 跳过识别')
                     return
+                #获取验证码输入框
                 door = wait.until(
                     EC.visibility_of_element_located((By.CSS_SELECTOR, '.loginform_yzm input[name="door"]')))
                 door.send_keys(result)
@@ -161,9 +186,10 @@ class WeiboCookiesGenerator(CookiesGenerator):
                 if result:
                     return result
         except WebDriverException as e:
-            print(e.args)
+            print('登录失败',e)
 
 
+#登录http://m.weibo.cn/后获取的cookie
 class MWeiboCookiesGenerator(CookiesGenerator):
     def __init__(self, name='weibo', browser_type=DEFAULT_BROWSER):
         """
@@ -184,12 +210,10 @@ class MWeiboCookiesGenerator(CookiesGenerator):
             self.browser.get('http://m.weibo.cn/')
 
             if "微博" in self.browser.title:
-                print(self.browser.get_cookies())
+                print('成功获取到Cookies',self.browser.get_cookies())
                 cookies = {}
                 for cookie in self.browser.get_cookies():
                     cookies[cookie["name"]] = cookie["value"]
-                print(cookies)
-                print('成功获取到Cookies')
                 return (username, json.dumps(cookies))
 
     def new_cookies(self, username, password):
@@ -199,7 +223,7 @@ class MWeiboCookiesGenerator(CookiesGenerator):
         :param password: 密码
         :return: 用户名和Cookies
         """
-        print('Generating Cookies of', username)
+        print('start fetch Cookies for site:[m.weibo.cn] with username:', username)
         self.browser.delete_all_cookies()
         self.browser.get('http://my.sina.com.cn/profile/unlogin')
         wait = WebDriverWait(self.browser, 20)
@@ -247,5 +271,4 @@ class MWeiboCookiesGenerator(CookiesGenerator):
 
 if __name__ == '__main__':
     generator = WeiboCookiesGenerator()
-    generator._init_browser('Chrome')
-    generator.new_cookies('15197170054', 'gmwkms222')
+    generator.run()

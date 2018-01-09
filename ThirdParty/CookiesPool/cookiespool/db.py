@@ -2,8 +2,8 @@ import random
 
 import redis
 
-from cookiespool.config import *
-from cookiespool.error import *
+from ThirdParty.CookiesPool.cookiespool.config import *
+from ThirdParty.CookiesPool.cookiespool.error import *
 
 
 class RedisClient(object):
@@ -189,21 +189,15 @@ class AccountRedisClient(RedisClient):
 
 
 if __name__ == '__main__':
-    """
-    conn = CookiesRedisClient()
-    conn.set('name', 'Mike')
-    conn.set('name2', 'Bob')
-    conn.set('name3', 'Amy')
-    print(conn.get('name'))
-    conn.delete('name')
-    print(conn.keys())
-    print(conn.random())
-    """
-    # 测试
+    #存入微博的账号和密码
     conn = AccountRedisClient(name='weibo')
-    conn2 = AccountRedisClient(name='mweibo')
+    conn.set('jiajian12358796@163.com', 'c456123')
+    conn.set('jennif_1@163.com', 'c456123')
+    conn.set('jojo1570@163.com', 'c456123')
+    conn.set('jeromeoh1981@163.com', 'c456123')
+    conn.set('jia7800jia@163.com', 'c456123')
+
+    for acc in conn.all():
+        print(acc)
 
 
-    accounts = conn.all()
-    for account in accounts:
-        conn2.set(account['username'], account['password'])

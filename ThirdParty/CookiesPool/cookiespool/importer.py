@@ -1,6 +1,7 @@
-import requests
 
-from cookiespool.db import AccountRedisClient
+#导入微博账号和密码到redis
+
+from ThirdParty.CookiesPool.cookiespool.db import AccountRedisClient
 
 conn = AccountRedisClient(name='weibo')
 
