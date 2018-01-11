@@ -2,21 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d93ce969-97a9-4c06-8556-4368d784a3d4" name="Default" comment="添加元类演示demo">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDemo/1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Crawler/haixinSpider/parseHtml.py" afterPath="$PROJECT_DIR$/Crawler/haixinSpider/parseHtml.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/api.py" afterPath="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/api.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/config.py" afterPath="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/config.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Crawler/Test/TestSpider/entrypoint.py" afterPath="$PROJECT_DIR$/Crawler/Test/TestSpider/entrypoint.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Crawler/Test/TestSpider/middlewares.py" afterPath="$PROJECT_DIR$/Crawler/Test/TestSpider/middlewares.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Crawler/Test/TestSpider/settings.py" afterPath="$PROJECT_DIR$/Crawler/Test/TestSpider/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/baidu.py" afterPath="$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/baidu.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/doubanbook.py" afterPath="$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/doubanbook.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/github.py" afterPath="$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/github.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/weixin.py" afterPath="$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/weixin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/zhihu.py" afterPath="$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/zhihu.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Crawler/dingdian/dingdian/spiders/dingdianxiaoshuo.py" afterPath="$PROJECT_DIR$/Crawler/dingdian/dingdian/spiders/dingdianxiaoshuo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDemo/1.html" afterPath="$PROJECT_DIR$/TestDemo/1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/db.py" afterPath="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/db.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/generator.py" afterPath="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/generator.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/importer.py" afterPath="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/importer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/scheduler.py" afterPath="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/scheduler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/tester.py" afterPath="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/tester.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/verify.py" afterPath="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/verify.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThirdParty/CookiesPool/run.py" afterPath="$PROJECT_DIR$/ThirdParty/CookiesPool/run.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThirdParty/CookiesPool/tests/login.py" afterPath="$PROJECT_DIR$/ThirdParty/CookiesPool/tests/login.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThirdParty/ProxyPool/proxypool/utils.py" afterPath="$PROJECT_DIR$/ThirdParty/ProxyPool/proxypool/utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThirdParty/ProxyPool/run.py" afterPath="$PROJECT_DIR$/ThirdParty/ProxyPool/run.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,17 +45,18 @@
     <SUITE FILE_PATH="coverage/$Config.coverage" NAME="Config Coverage Results" MODIFIED="1512537936056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JDSpiders" />
     <SUITE FILE_PATH="coverage/$run__3_.coverage" NAME="run (3) Coverage Results" MODIFIED="1515386344913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ThirdParty/ProxyPool2" />
     <SUITE FILE_PATH="coverage/$WXRobo.coverage" NAME="WXRobo Coverage Results" MODIFIED="1501729919105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/$entrypoint.coverage" NAME="entrypoint Coverage Results" MODIFIED="1513394721967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/TestSpider" />
+    <SUITE FILE_PATH="coverage/$entrypoint.coverage" NAME="entrypoint Coverage Results" MODIFIED="1515647896139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawler/Test/TestSpider" />
     <SUITE FILE_PATH="coverage/$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1513160050870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/$Unittests_in_testFun_py.coverage" NAME="Unittests in MetaClass.py Coverage Results" MODIFIED="1515142900521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestDemo" />
     <SUITE FILE_PATH="coverage/$Spider.coverage" NAME="Spider Coverage Results" MODIFIED="1503202803760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JDSpider" />
     <SUITE FILE_PATH="coverage/$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1515489758955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ThirdParty/CookiesPool" />
     <SUITE FILE_PATH="coverage/$importer.coverage" NAME="importer Coverage Results" MODIFIED="1515469776311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool" />
-    <SUITE FILE_PATH="coverage/$login.coverage" NAME="login Coverage Results" MODIFIED="1515496143906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ThirdParty/CookiesPool/tests" />
+    <SUITE FILE_PATH="coverage/$login.coverage" NAME="login Coverage Results" MODIFIED="1515551934119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ThirdParty/CookiesPool/tests" />
     <SUITE FILE_PATH="coverage/$api.coverage" NAME="api Coverage Results" MODIFIED="1515380064407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ThirdParty/ProxyPool2/proxypool" />
     <SUITE FILE_PATH="coverage/$Test.coverage" NAME="Test Coverage Results" MODIFIED="1508637804711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JDSpider" />
     <SUITE FILE_PATH="coverage/$JDSpider.coverage" NAME="JDSpider Coverage Results" MODIFIED="1512537628424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JDSpider" />
     <SUITE FILE_PATH="coverage/$run__2_.coverage" NAME="run (2) Coverage Results" MODIFIED="1515378910458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawler/ProxyPool2" />
+    <SUITE FILE_PATH="coverage/$doubanbook.coverage" NAME="doubanbook Coverage Results" MODIFIED="1515552182638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawler/Test/TestSpider/spiders" />
     <SUITE FILE_PATH="coverage/$Unittests_in_spider_py.coverage" NAME="Unittests in spider.py Coverage Results" MODIFIED="1513305818363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/haixinSpider" />
     <SUITE FILE_PATH="coverage/$MetaClass.coverage" NAME="MetaClass Coverage Results" MODIFIED="1515153395756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestDemo" />
   </component>
@@ -76,243 +75,109 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/run.py">
+      <file leaf-file-name="dingdianxiaoshuo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Crawler/dingdian/dingdian/spiders/dingdianxiaoshuo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/tests/login.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="437">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#24#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestDemo/1.html">
+      <file leaf-file-name="baidu.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/baidu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="-259">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
-                <element signature="e#3014#3020#0#HTML" expanded="true" />
-                <element signature="e#3020#3026#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#3681#3687#0#HTML" expanded="true" />
-                <element signature="e#3813#3819#1#HTML" expanded="true" />
-                <element signature="e#3859#3865#1#HTML" expanded="true" />
-                <element signature="e#3907#3913#1#HTML" expanded="true" />
-                <element signature="e#3965#3971#1#HTML" expanded="true" />
-                <element signature="e#4061#4067#0#HTML" expanded="true" />
-                <element signature="e#4069#4075#0#HTML" expanded="true" />
-                <element signature="e#4101#4107#1#HTML" expanded="true" />
-                <element signature="e#4150#4156#1#HTML" expanded="true" />
-                <element signature="e#4755#4761#1#HTML" expanded="true" />
-                <element signature="e#4968#4974#0#HTML" expanded="true" />
-                <element signature="e#5206#5212#1#HTML" expanded="true" />
-                <element signature="e#5310#5316#1#HTML" expanded="true" />
-                <element signature="e#5415#5421#1#HTML" expanded="true" />
-                <element signature="e#5499#5505#1#HTML" expanded="true" />
-                <element signature="e#5603#5609#1#HTML" expanded="true" />
-                <element signature="e#5689#5695#0#HTML" expanded="true" />
-                <element signature="e#5731#5737#0#HTML" expanded="true" />
-                <element signature="e#6268#6274#0#HTML" expanded="true" />
-                <element signature="e#6316#6322#1#HTML" expanded="true" />
-                <element signature="e#6530#6536#1#HTML" expanded="true" />
-                <element signature="e#6635#6641#1#HTML" expanded="true" />
-                <element signature="e#6719#6725#1#HTML" expanded="true" />
-                <element signature="e#6822#6828#1#HTML" expanded="true" />
-                <element signature="e#6908#6914#0#HTML" expanded="true" />
-                <element signature="e#6950#6956#0#HTML" expanded="true" />
-                <element signature="e#7069#7075#0#HTML" expanded="true" />
-                <element signature="e#7269#7275#0#HTML" expanded="true" />
-                <element signature="e#7333#7339#1#HTML" expanded="true" />
-                <element signature="e#7372#7378#1#HTML" expanded="true" />
-                <element signature="e#7412#7418#1#HTML" expanded="true" />
-                <element signature="e#7570#7576#0#HTML" expanded="true" />
-                <element signature="e#7576#7582#0#HTML" expanded="true" />
-                <element signature="e#7681#7687#1#HTML" expanded="true" />
-                <element signature="e#7765#7771#1#HTML" expanded="true" />
-                <element signature="e#7868#7874#1#HTML" expanded="true" />
-                <element signature="e#7954#7960#0#HTML" expanded="true" />
-                <element signature="e#7996#8002#0#HTML" expanded="true" />
-                <element signature="e#8115#8121#0#HTML" expanded="true" />
-                <element signature="e#8325#8331#0#HTML" expanded="true" />
-                <element signature="e#9184#9190#0#HTML" expanded="true" />
-                <element signature="e#9232#9238#0#HTML" expanded="true" />
-                <element signature="e#9470#9476#1#HTML" expanded="true" />
-                <element signature="e#9574#9580#1#HTML" expanded="true" />
-                <element signature="e#9610#9616#1#HTML" expanded="true" />
-                <element signature="e#9649#9655#1#HTML" expanded="true" />
-                <element signature="e#9972#9978#0#HTML" expanded="true" />
-                <element signature="e#9978#9984#0#HTML" expanded="true" />
-                <element signature="e#10083#10089#1#HTML" expanded="true" />
-                <element signature="e#10167#10173#1#HTML" expanded="true" />
-                <element signature="e#10270#10276#1#HTML" expanded="true" />
-                <element signature="e#10356#10362#0#HTML" expanded="true" />
-                <element signature="e#10398#10404#0#HTML" expanded="true" />
-                <element signature="e#10517#10523#0#HTML" expanded="true" />
-                <element signature="e#10725#10731#0#HTML" expanded="true" />
-                <element signature="e#11123#11129#0#HTML" expanded="true" />
-                <element signature="e#11361#11367#1#HTML" expanded="true" />
-                <element signature="e#11465#11471#1#HTML" expanded="true" />
-                <element signature="e#11501#11507#1#HTML" expanded="true" />
-                <element signature="e#11540#11546#1#HTML" expanded="true" />
-                <element signature="e#11847#11853#0#HTML" expanded="true" />
-                <element signature="e#11853#11859#0#HTML" expanded="true" />
-                <element signature="e#11958#11964#1#HTML" expanded="true" />
-                <element signature="e#12042#12048#1#HTML" expanded="true" />
-                <element signature="e#12145#12151#1#HTML" expanded="true" />
-                <element signature="e#12231#12237#0#HTML" expanded="true" />
-                <element signature="e#12273#12279#0#HTML" expanded="true" />
-                <element signature="e#12533#12539#0#HTML" expanded="true" />
-                <element signature="e#12581#12587#1#HTML" expanded="true" />
-                <element signature="e#12796#12802#0#HTML" expanded="true" />
-                <element signature="e#13034#13040#1#HTML" expanded="true" />
-                <element signature="e#13138#13144#1#HTML" expanded="true" />
-                <element signature="e#13243#13249#1#HTML" expanded="true" />
-                <element signature="e#13327#13333#1#HTML" expanded="true" />
-                <element signature="e#13430#13436#1#HTML" expanded="true" />
-                <element signature="e#13516#13522#0#HTML" expanded="true" />
-                <element signature="e#13558#13564#0#HTML" expanded="true" />
-                <element signature="e#13863#13869#1#HTML" expanded="true" />
-                <element signature="e#14245#14251#1#HTML" expanded="true" />
-                <element signature="e#14349#14355#1#HTML" expanded="true" />
-                <element signature="e#14454#14460#1#HTML" expanded="true" />
-                <element signature="e#14538#14544#1#HTML" expanded="true" />
-                <element signature="e#14642#14648#1#HTML" expanded="true" />
-                <element signature="e#14728#14734#0#HTML" expanded="true" />
-                <element signature="e#14770#14776#0#HTML" expanded="true" />
-                <element signature="e#14889#14895#0#HTML" expanded="true" />
-                <element signature="e#15100#15106#0#HTML" expanded="true" />
-                <element signature="e#15474#15480#0#HTML" expanded="true" />
-                <element signature="e#15712#15718#1#HTML" expanded="true" />
-                <element signature="e#15816#15822#1#HTML" expanded="true" />
-                <element signature="e#15854#15860#1#HTML" expanded="true" />
-                <element signature="e#15895#15901#1#HTML" expanded="true" />
-                <element signature="e#16097#16103#0#HTML" expanded="true" />
-                <element signature="e#16103#16109#0#HTML" expanded="true" />
-                <element signature="e#16208#16214#1#HTML" expanded="true" />
-                <element signature="e#16293#16299#1#HTML" expanded="true" />
-                <element signature="e#16397#16403#1#HTML" expanded="true" />
-                <element signature="e#16483#16489#0#HTML" expanded="true" />
-                <element signature="e#16525#16531#0#HTML" expanded="true" />
-                <element signature="e#16644#16650#0#HTML" expanded="true" />
-                <element signature="e#16851#16857#0#HTML" expanded="true" />
-                <element signature="e#17334#17340#0#HTML" expanded="true" />
-                <element signature="e#17382#17388#0#HTML" expanded="true" />
-                <element signature="e#17620#17626#1#HTML" expanded="true" />
-                <element signature="e#17724#17730#1#HTML" expanded="true" />
-                <element signature="e#17762#17768#1#HTML" expanded="true" />
-                <element signature="e#17802#17808#1#HTML" expanded="true" />
-                <element signature="e#18126#18132#0#HTML" expanded="true" />
-                <element signature="e#18132#18138#0#HTML" expanded="true" />
-                <element signature="e#18237#18243#1#HTML" expanded="true" />
-                <element signature="e#18321#18327#1#HTML" expanded="true" />
-                <element signature="e#18425#18431#1#HTML" expanded="true" />
-                <element signature="e#18511#18517#0#HTML" expanded="true" />
-                <element signature="e#18553#18559#0#HTML" expanded="true" />
-                <element signature="e#18863#18869#1#HTML" expanded="true" />
-                <element signature="e#19079#19085#0#HTML" expanded="true" />
-                <element signature="e#19317#19323#1#HTML" expanded="true" />
-                <element signature="e#19421#19427#1#HTML" expanded="true" />
-                <element signature="e#19526#19532#1#HTML" expanded="true" />
-                <element signature="e#19610#19616#1#HTML" expanded="true" />
-                <element signature="e#19714#19720#1#HTML" expanded="true" />
-                <element signature="e#19800#19806#0#HTML" expanded="true" />
-                <element signature="e#19842#19848#0#HTML" expanded="true" />
-                <element signature="e#20018#20024#1#HTML" expanded="true" />
-                <element signature="e#20061#20067#1#HTML" expanded="true" />
-                <element signature="e#20097#20103#1#HTML" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#div#0;n#form#0;n#div#26;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#20256#20262#0#HTML" expanded="true" />
-                <element signature="e#20647#20653#1#HTML" expanded="true" />
-                <element signature="e#20780#20786#1#HTML" expanded="true" />
-                <element signature="e#20965#20971#1#HTML" expanded="true" />
-                <element signature="e#21088#21094#1#HTML" expanded="true" />
+                <element signature="e#24#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scheduler.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/scheduler.py">
+      <file leaf-file-name="doubanbook.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/doubanbook.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            <state relative-caret-position="376">
+              <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Crawler/Test/TestSpider/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Crawler/Test/TestSpider/middlewares.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="30" column="76" lean-forward="false" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#168#194#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schedule.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool/proxypool/schedule.py">
+      <file leaf-file-name="github.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/github.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="54" column="54" lean-forward="false" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="54" />
+            <state relative-caret-position="831">
+              <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tester.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/tester.py">
+      <file leaf-file-name="spider.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Crawler/haixinSpider/spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="285">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="verify.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/verify.py">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Crawler/Weibo/weibo/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+            <state relative-caret-position="-145">
+              <caret line="68" column="1" lean-forward="true" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generator.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/generator.py">
+      <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Crawler/Weibo/weibo/middlewares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="853">
-              <caret line="138" column="39" lean-forward="false" selection-start-line="138" selection-start-column="32" selection-end-line="138" selection-end-column="39" />
+            <state relative-caret-position="393">
+              <caret line="37" column="41" lean-forward="false" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#167#178#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/config.py">
+      <file leaf-file-name="crawler.py" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/crawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="169">
+              <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -330,12 +195,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>VALID_CH</find>
-      <find>VALID_CHE</find>
-      <find>VALID_CHEC</find>
-      <find>VALID_CHECK</find>
-      <find>大家好，给大家介绍一下，这是我的兔</find>
-      <find>PoolAdder</find>
       <find>i</find>
       <find>importter</find>
       <find>importte</find>
@@ -360,6 +219,12 @@
       <find>title</find>
       <find>close</find>
       <find>cookie</find>
+      <find>cookies</find>
+      <find>222222</find>
+      <find>1111</find>
+      <find>make_requests_from_url调用</find>
+      <find>process_request</find>
+      <find>####</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -375,16 +240,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Test/TestSpider/spiders/weixin.py" />
-        <option value="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/examples/example_round_proxy.py" />
-        <option value="$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/zhihu.py" />
-        <option value="$PROJECT_DIR$/TestDemo/testFun.py" />
-        <option value="$PROJECT_DIR$/TestDemo/MetaClass.py" />
-        <option value="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/utils.py" />
-        <option value="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/getter.py" />
-        <option value="$PROJECT_DIR$/Crawler/JDSpider/Spider.py" />
-        <option value="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/setting.py" />
-        <option value="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/run.py" />
         <option value="$PROJECT_DIR$/ Third-party/Proxy-Pool-2/proxypool/schedule.py" />
         <option value="$PROJECT_DIR$/ Third_party/Proxy_Pool_2/run.py" />
         <option value="$PROJECT_DIR$/ ThirdParty/ProxyPool2/run.py" />
@@ -416,16 +271,26 @@
         <option value="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/api.py" />
         <option value="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/scheduler.py" />
         <option value="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/tester.py" />
-        <option value="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/verify.py" />
         <option value="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/importer.py" />
         <option value="$USER_HOME$/Downloads/fuck12306-master/fuck12306.py" />
         <option value="$PROJECT_DIR$/ThirdParty/CookiesPool/run.py" />
-        <option value="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/db.py" />
         <option value="$PROJECT_DIR$/ThirdParty/ProxyPool/proxypool/utils.py" />
         <option value="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/config.py" />
-        <option value="$PROJECT_DIR$/TestDemo/1.html" />
         <option value="$PROJECT_DIR$/ThirdParty/CookiesPool/tests/login.py" />
         <option value="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/generator.py" />
+        <option value="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/db.py" />
+        <option value="$PROJECT_DIR$/TestDemo/1.html" />
+        <option value="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/verify.py" />
+        <option value="$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/doubanbook.py" />
+        <option value="$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/weixin.py" />
+        <option value="$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/zhihu.py" />
+        <option value="$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/github.py" />
+        <option value="$PROJECT_DIR$/Crawler/dingdian/dingdian/spiders/dingdianxiaoshuo.py" />
+        <option value="$PROJECT_DIR$/Crawler/Weibo/weibo/middlewares.py" />
+        <option value="$PROJECT_DIR$/Crawler/Test/TestSpider/entrypoint.py" />
+        <option value="$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/baidu.py" />
+        <option value="$PROJECT_DIR$/Crawler/Test/TestSpider/settings.py" />
+        <option value="$PROJECT_DIR$/Crawler/Test/TestSpider/middlewares.py" />
       </list>
     </option>
   </component>
@@ -497,130 +362,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ThirdParty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProxyPool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThirdParty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProxyPool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proxypool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThirdParty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProxyPool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThirdParty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CookiesPool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThirdParty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CookiesPool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThirdParty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CookiesPool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cookiespool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="代码" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="TestDemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -638,6 +379,10 @@
               <option name="myItemId" value="Crawler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -653,7 +398,117 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JDSpider" />
+              <option name="myItemId" value="Weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="代码" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="代码" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spiders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="代码" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="代码" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="代码" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="代码" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestSpider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="代码" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="代码" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestSpider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spiders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="代码" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="代码" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crawler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -747,7 +602,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="Images" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="FullScreen" value="true" />
@@ -782,7 +637,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.login">
+  <component name="RunManager" selected="Python.entrypoint">
     <configuration default="false" name="login" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -797,25 +652,6 @@
       <module name="代码" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ThirdParty/CookiesPool/tests/login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="db" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="代码" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/db.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -840,25 +676,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ThirdParty/ProxyPool" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="代码" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ThirdParty/ProxyPool/run.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -873,6 +690,44 @@
       <module name="代码" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/generator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="doubanbook" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Crawler/Test/TestSpider/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="代码" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/doubanbook.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="entrypoint" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Crawler/Test/TestSpider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="代码" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Crawler/Test/TestSpider/entrypoint.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -1048,18 +903,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.代码" />
       <item index="1" class="java.lang.String" itemvalue="Python.login" />
-      <item index="2" class="java.lang.String" itemvalue="Python.db" />
-      <item index="3" class="java.lang.String" itemvalue="Python.run (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.run" />
-      <item index="5" class="java.lang.String" itemvalue="Python.generator" />
+      <item index="2" class="java.lang.String" itemvalue="Python.run (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.generator" />
+      <item index="4" class="java.lang.String" itemvalue="Python.doubanbook" />
+      <item index="5" class="java.lang.String" itemvalue="Python.entrypoint" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.login" />
-        <item index="1" class="java.lang.String" itemvalue="Python.run (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.generator" />
-        <item index="3" class="java.lang.String" itemvalue="Python.run" />
-        <item index="4" class="java.lang.String" itemvalue="Python.db" />
+        <item index="0" class="java.lang.String" itemvalue="Python.entrypoint" />
+        <item index="1" class="java.lang.String" itemvalue="Python.doubanbook" />
+        <item index="2" class="java.lang.String" itemvalue="Python.login" />
+        <item index="3" class="java.lang.String" itemvalue="Python.run (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.generator" />
       </list>
     </recent_temporary>
   </component>
@@ -1067,7 +922,8 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="StructureViewFactory">
-    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -1154,24 +1010,25 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54698795" sideWeight="0.5100143" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54698795" sideWeight="0.5100143" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35783133" sideWeight="0.4899857" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32168674" sideWeight="0.49427754" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2686747" sideWeight="0.4914163" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28313252" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17739628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="539" y="0" width="841" height="1003" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32168674" sideWeight="0.49427754" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2686747" sideWeight="0.4914163" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28313252" sideWeight="0.49713877" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20314735" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="539" y="0" width="841" height="1003" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2550586" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2546495" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4493976" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1233,316 +1090,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/DB/DbClient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/DB/MongodbClient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-679">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/DB/RedisClient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-814">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/DB/SsdbClient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1648">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/Manager/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/Manager/ProxyManager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-562">
-          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/doc/introduce.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="64" column="6" lean-forward="false" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/ProxyGetter/getFreeProxy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2477">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/Run/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/Test/testGetFreeProxy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/Util/WebRequest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1037">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/Util/utilFunction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
-          <caret line="76" column="12" lean-forward="true" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/proxyPool1/Test/testWebRequest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool/proxypool/error.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool/proxypool/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/globals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool/proxypool/getter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2090">
-          <caret line="110" column="45" lean-forward="true" selection-start-line="110" selection-start-column="45" selection-end-line="110" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#57#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-505">
-          <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/PIL/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Crawler/haixinSpider/parseHtml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#48#57#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Crawler/MeiZiTu/meizitu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/fuck12306-master/fuck12306.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="102" column="22" lean-forward="true" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
-          <folding>
-            <element signature="e#276#297#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/common/desired_capabilities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2204">
-          <caret line="116" column="4" lean-forward="false" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/common/proxy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3598">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="111" column="8" lean-forward="false" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Crawler/JDSpider/Config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="293" column="8" lean-forward="false" selection-start-line="293" selection-start-column="8" selection-end-line="293" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="184" column="12" lean-forward="true" selection-start-line="184" selection-start-column="12" selection-end-line="184" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#13#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Crawler/JDSpider/Spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="28" column="157" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="157" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="684" column="8" lean-forward="false" selection-start-line="684" selection-start-column="8" selection-end-line="684" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/importer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool/examples/example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool/proxypool/api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-88">
@@ -1585,22 +1132,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/verify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
@@ -1617,170 +1148,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestDemo/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#3014#3020#0#HTML" expanded="true" />
-            <element signature="e#3020#3026#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3681#3687#0#HTML" expanded="true" />
-            <element signature="e#3813#3819#1#HTML" expanded="true" />
-            <element signature="e#3859#3865#1#HTML" expanded="true" />
-            <element signature="e#3907#3913#1#HTML" expanded="true" />
-            <element signature="e#3965#3971#1#HTML" expanded="true" />
-            <element signature="e#4061#4067#0#HTML" expanded="true" />
-            <element signature="e#4069#4075#0#HTML" expanded="true" />
-            <element signature="e#4101#4107#1#HTML" expanded="true" />
-            <element signature="e#4150#4156#1#HTML" expanded="true" />
-            <element signature="e#4755#4761#1#HTML" expanded="true" />
-            <element signature="e#4968#4974#0#HTML" expanded="true" />
-            <element signature="e#5206#5212#1#HTML" expanded="true" />
-            <element signature="e#5310#5316#1#HTML" expanded="true" />
-            <element signature="e#5415#5421#1#HTML" expanded="true" />
-            <element signature="e#5499#5505#1#HTML" expanded="true" />
-            <element signature="e#5603#5609#1#HTML" expanded="true" />
-            <element signature="e#5689#5695#0#HTML" expanded="true" />
-            <element signature="e#5731#5737#0#HTML" expanded="true" />
-            <element signature="e#6268#6274#0#HTML" expanded="true" />
-            <element signature="e#6316#6322#1#HTML" expanded="true" />
-            <element signature="e#6530#6536#1#HTML" expanded="true" />
-            <element signature="e#6635#6641#1#HTML" expanded="true" />
-            <element signature="e#6719#6725#1#HTML" expanded="true" />
-            <element signature="e#6822#6828#1#HTML" expanded="true" />
-            <element signature="e#6908#6914#0#HTML" expanded="true" />
-            <element signature="e#6950#6956#0#HTML" expanded="true" />
-            <element signature="e#7069#7075#0#HTML" expanded="true" />
-            <element signature="e#7269#7275#0#HTML" expanded="true" />
-            <element signature="e#7333#7339#1#HTML" expanded="true" />
-            <element signature="e#7372#7378#1#HTML" expanded="true" />
-            <element signature="e#7412#7418#1#HTML" expanded="true" />
-            <element signature="e#7570#7576#0#HTML" expanded="true" />
-            <element signature="e#7576#7582#0#HTML" expanded="true" />
-            <element signature="e#7681#7687#1#HTML" expanded="true" />
-            <element signature="e#7765#7771#1#HTML" expanded="true" />
-            <element signature="e#7868#7874#1#HTML" expanded="true" />
-            <element signature="e#7954#7960#0#HTML" expanded="true" />
-            <element signature="e#7996#8002#0#HTML" expanded="true" />
-            <element signature="e#8115#8121#0#HTML" expanded="true" />
-            <element signature="e#8325#8331#0#HTML" expanded="true" />
-            <element signature="e#9184#9190#0#HTML" expanded="true" />
-            <element signature="e#9232#9238#0#HTML" expanded="true" />
-            <element signature="e#9470#9476#1#HTML" expanded="true" />
-            <element signature="e#9574#9580#1#HTML" expanded="true" />
-            <element signature="e#9610#9616#1#HTML" expanded="true" />
-            <element signature="e#9649#9655#1#HTML" expanded="true" />
-            <element signature="e#9972#9978#0#HTML" expanded="true" />
-            <element signature="e#9978#9984#0#HTML" expanded="true" />
-            <element signature="e#10083#10089#1#HTML" expanded="true" />
-            <element signature="e#10167#10173#1#HTML" expanded="true" />
-            <element signature="e#10270#10276#1#HTML" expanded="true" />
-            <element signature="e#10356#10362#0#HTML" expanded="true" />
-            <element signature="e#10398#10404#0#HTML" expanded="true" />
-            <element signature="e#10517#10523#0#HTML" expanded="true" />
-            <element signature="e#10725#10731#0#HTML" expanded="true" />
-            <element signature="e#11123#11129#0#HTML" expanded="true" />
-            <element signature="e#11361#11367#1#HTML" expanded="true" />
-            <element signature="e#11465#11471#1#HTML" expanded="true" />
-            <element signature="e#11501#11507#1#HTML" expanded="true" />
-            <element signature="e#11540#11546#1#HTML" expanded="true" />
-            <element signature="e#11847#11853#0#HTML" expanded="true" />
-            <element signature="e#11853#11859#0#HTML" expanded="true" />
-            <element signature="e#11958#11964#1#HTML" expanded="true" />
-            <element signature="e#12042#12048#1#HTML" expanded="true" />
-            <element signature="e#12145#12151#1#HTML" expanded="true" />
-            <element signature="e#12231#12237#0#HTML" expanded="true" />
-            <element signature="e#12273#12279#0#HTML" expanded="true" />
-            <element signature="e#12533#12539#0#HTML" expanded="true" />
-            <element signature="e#12581#12587#1#HTML" expanded="true" />
-            <element signature="e#12796#12802#0#HTML" expanded="true" />
-            <element signature="e#13034#13040#1#HTML" expanded="true" />
-            <element signature="e#13138#13144#1#HTML" expanded="true" />
-            <element signature="e#13243#13249#1#HTML" expanded="true" />
-            <element signature="e#13327#13333#1#HTML" expanded="true" />
-            <element signature="e#13430#13436#1#HTML" expanded="true" />
-            <element signature="e#13516#13522#0#HTML" expanded="true" />
-            <element signature="e#13558#13564#0#HTML" expanded="true" />
-            <element signature="e#13863#13869#1#HTML" expanded="true" />
-            <element signature="e#14245#14251#1#HTML" expanded="true" />
-            <element signature="e#14349#14355#1#HTML" expanded="true" />
-            <element signature="e#14454#14460#1#HTML" expanded="true" />
-            <element signature="e#14538#14544#1#HTML" expanded="true" />
-            <element signature="e#14642#14648#1#HTML" expanded="true" />
-            <element signature="e#14728#14734#0#HTML" expanded="true" />
-            <element signature="e#14770#14776#0#HTML" expanded="true" />
-            <element signature="e#14889#14895#0#HTML" expanded="true" />
-            <element signature="e#15100#15106#0#HTML" expanded="true" />
-            <element signature="e#15474#15480#0#HTML" expanded="true" />
-            <element signature="e#15712#15718#1#HTML" expanded="true" />
-            <element signature="e#15816#15822#1#HTML" expanded="true" />
-            <element signature="e#15854#15860#1#HTML" expanded="true" />
-            <element signature="e#15895#15901#1#HTML" expanded="true" />
-            <element signature="e#16097#16103#0#HTML" expanded="true" />
-            <element signature="e#16103#16109#0#HTML" expanded="true" />
-            <element signature="e#16208#16214#1#HTML" expanded="true" />
-            <element signature="e#16293#16299#1#HTML" expanded="true" />
-            <element signature="e#16397#16403#1#HTML" expanded="true" />
-            <element signature="e#16483#16489#0#HTML" expanded="true" />
-            <element signature="e#16525#16531#0#HTML" expanded="true" />
-            <element signature="e#16644#16650#0#HTML" expanded="true" />
-            <element signature="e#16851#16857#0#HTML" expanded="true" />
-            <element signature="e#17334#17340#0#HTML" expanded="true" />
-            <element signature="e#17382#17388#0#HTML" expanded="true" />
-            <element signature="e#17620#17626#1#HTML" expanded="true" />
-            <element signature="e#17724#17730#1#HTML" expanded="true" />
-            <element signature="e#17762#17768#1#HTML" expanded="true" />
-            <element signature="e#17802#17808#1#HTML" expanded="true" />
-            <element signature="e#18126#18132#0#HTML" expanded="true" />
-            <element signature="e#18132#18138#0#HTML" expanded="true" />
-            <element signature="e#18237#18243#1#HTML" expanded="true" />
-            <element signature="e#18321#18327#1#HTML" expanded="true" />
-            <element signature="e#18425#18431#1#HTML" expanded="true" />
-            <element signature="e#18511#18517#0#HTML" expanded="true" />
-            <element signature="e#18553#18559#0#HTML" expanded="true" />
-            <element signature="e#18863#18869#1#HTML" expanded="true" />
-            <element signature="e#19079#19085#0#HTML" expanded="true" />
-            <element signature="e#19317#19323#1#HTML" expanded="true" />
-            <element signature="e#19421#19427#1#HTML" expanded="true" />
-            <element signature="e#19526#19532#1#HTML" expanded="true" />
-            <element signature="e#19610#19616#1#HTML" expanded="true" />
-            <element signature="e#19714#19720#1#HTML" expanded="true" />
-            <element signature="e#19800#19806#0#HTML" expanded="true" />
-            <element signature="e#19842#19848#0#HTML" expanded="true" />
-            <element signature="e#20018#20024#1#HTML" expanded="true" />
-            <element signature="e#20061#20067#1#HTML" expanded="true" />
-            <element signature="e#20097#20103#1#HTML" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#div#0;n#form#0;n#div#26;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#20256#20262#0#HTML" expanded="true" />
-            <element signature="e#20647#20653#1#HTML" expanded="true" />
-            <element signature="e#20780#20786#1#HTML" expanded="true" />
-            <element signature="e#20965#20971#1#HTML" expanded="true" />
-            <element signature="e#21088#21094#1#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/tests/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/scheduler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/tester.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
@@ -1789,12 +1156,492 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/generator.py">
+    <entry file="file://$PROJECT_DIR$/ThirdParty/ProxyPool/proxypool/db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="853">
-          <caret line="138" column="39" lean-forward="false" selection-start-line="138" selection-start-column="32" selection-end-line="138" selection-end-column="39" />
+        <state relative-caret-position="-482">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="153" column="0" lean-forward="true" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+          <folding>
+            <element signature="e#173#1531#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/importer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/scheduler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="43" column="19" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/ghostdriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1838">
+          <caret line="143" column="45" lean-forward="false" selection-start-line="143" selection-start-column="45" selection-end-line="143" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestDemo/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#3026#3032#0#HTML" expanded="false" />
+            <element signature="e#3032#3038#0#HTML" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#3720#3726#0#HTML" expanded="false" />
+            <element signature="e#3862#3868#1#HTML" expanded="false" />
+            <element signature="e#3912#3918#1#HTML" expanded="false" />
+            <element signature="e#3964#3970#1#HTML" expanded="false" />
+            <element signature="e#4026#4032#1#HTML" expanded="false" />
+            <element signature="e#4126#4132#0#HTML" expanded="false" />
+            <element signature="e#4138#4144#0#HTML" expanded="false" />
+            <element signature="e#4170#4176#1#HTML" expanded="false" />
+            <element signature="e#4223#4229#1#HTML" expanded="false" />
+            <element signature="e#4531#4537#0#HTML" expanded="false" />
+            <element signature="e#4752#4758#0#HTML" expanded="false" />
+            <element signature="e#5991#5997#0#HTML" expanded="false" />
+            <element signature="e#6043#6049#0#HTML" expanded="false" />
+            <element signature="e#6293#6299#1#HTML" expanded="false" />
+            <element signature="e#6401#6407#1#HTML" expanded="false" />
+            <element signature="e#6439#6445#1#HTML" expanded="false" />
+            <element signature="e#6488#6494#1#HTML" expanded="false" />
+            <element signature="e#7635#7641#0#HTML" expanded="false" />
+            <element signature="e#7641#7647#0#HTML" expanded="false" />
+            <element signature="e#7748#7754#1#HTML" expanded="false" />
+            <element signature="e#7838#7844#1#HTML" expanded="false" />
+            <element signature="e#7946#7952#1#HTML" expanded="false" />
+            <element signature="e#8036#8042#0#HTML" expanded="false" />
+            <element signature="e#8078#8084#0#HTML" expanded="false" />
+            <element signature="e#8818#8824#1#HTML" expanded="false" />
+            <element signature="e#9041#9047#1#HTML" expanded="false" />
+            <element signature="e#9148#9154#1#HTML" expanded="false" />
+            <element signature="e#9237#9243#1#HTML" expanded="false" />
+            <element signature="e#9345#9351#1#HTML" expanded="false" />
+            <element signature="e#9435#9441#0#HTML" expanded="false" />
+            <element signature="e#9477#9483#0#HTML" expanded="false" />
+            <element signature="e#10463#10469#0#HTML" expanded="false" />
+            <element signature="e#10515#10521#1#HTML" expanded="false" />
+            <element signature="e#10738#10744#1#HTML" expanded="false" />
+            <element signature="e#10845#10851#1#HTML" expanded="false" />
+            <element signature="e#10935#10941#1#HTML" expanded="false" />
+            <element signature="e#11044#11050#1#HTML" expanded="false" />
+            <element signature="e#11134#11140#0#HTML" expanded="false" />
+            <element signature="e#11176#11182#0#HTML" expanded="false" />
+            <element signature="e#11665#11671#1#HTML" expanded="false" />
+            <element signature="e#12059#12065#1#HTML" expanded="false" />
+            <element signature="e#12167#12173#1#HTML" expanded="false" />
+            <element signature="e#12274#12280#1#HTML" expanded="false" />
+            <element signature="e#12362#12368#1#HTML" expanded="false" />
+            <element signature="e#12470#12476#1#HTML" expanded="false" />
+            <element signature="e#12560#12566#0#HTML" expanded="false" />
+            <element signature="e#12602#12608#0#HTML" expanded="false" />
+            <element signature="e#12731#12737#0#HTML" expanded="false" />
+            <element signature="e#12957#12963#0#HTML" expanded="false" />
+            <element signature="e#13392#13398#0#HTML" expanded="false" />
+            <element signature="e#13642#13648#1#HTML" expanded="false" />
+            <element signature="e#13750#13756#1#HTML" expanded="false" />
+            <element signature="e#13789#13795#1#HTML" expanded="false" />
+            <element signature="e#13838#13844#1#HTML" expanded="false" />
+            <element signature="e#14226#14232#0#HTML" expanded="false" />
+            <element signature="e#14232#14238#0#HTML" expanded="false" />
+            <element signature="e#14339#14345#1#HTML" expanded="false" />
+            <element signature="e#14429#14435#1#HTML" expanded="false" />
+            <element signature="e#14537#14543#1#HTML" expanded="false" />
+            <element signature="e#14627#14633#0#HTML" expanded="false" />
+            <element signature="e#14669#14675#0#HTML" expanded="false" />
+            <element signature="e#15168#15174#1#HTML" expanded="false" />
+            <element signature="e#15561#15567#1#HTML" expanded="false" />
+            <element signature="e#15669#15675#1#HTML" expanded="false" />
+            <element signature="e#15777#15783#1#HTML" expanded="false" />
+            <element signature="e#15865#15871#1#HTML" expanded="false" />
+            <element signature="e#15973#15979#1#HTML" expanded="false" />
+            <element signature="e#16063#16069#0#HTML" expanded="false" />
+            <element signature="e#16105#16111#0#HTML" expanded="false" />
+            <element signature="e#16614#16620#1#HTML" expanded="false" />
+            <element signature="e#16838#16844#1#HTML" expanded="false" />
+            <element signature="e#16945#16951#1#HTML" expanded="false" />
+            <element signature="e#17032#17038#1#HTML" expanded="false" />
+            <element signature="e#17140#17146#1#HTML" expanded="false" />
+            <element signature="e#17230#17236#0#HTML" expanded="false" />
+            <element signature="e#17272#17278#0#HTML" expanded="false" />
+            <element signature="e#17979#17985#1#HTML" expanded="false" />
+            <element signature="e#18200#18206#0#HTML" expanded="false" />
+            <element signature="e#18450#18456#1#HTML" expanded="false" />
+            <element signature="e#18558#18564#1#HTML" expanded="false" />
+            <element signature="e#18665#18671#1#HTML" expanded="false" />
+            <element signature="e#18753#18759#1#HTML" expanded="false" />
+            <element signature="e#18861#18867#1#HTML" expanded="false" />
+            <element signature="e#18951#18957#0#HTML" expanded="false" />
+            <element signature="e#18993#18999#0#HTML" expanded="false" />
+            <element signature="e#19988#19994#0#HTML" expanded="false" />
+            <element signature="e#20040#20046#1#HTML" expanded="false" />
+            <element signature="e#20262#20268#0#HTML" expanded="false" />
+            <element signature="e#20512#20518#1#HTML" expanded="false" />
+            <element signature="e#20620#20626#1#HTML" expanded="false" />
+            <element signature="e#20727#20733#1#HTML" expanded="false" />
+            <element signature="e#20817#20823#1#HTML" expanded="false" />
+            <element signature="e#20925#20931#1#HTML" expanded="false" />
+            <element signature="e#21015#21021#0#HTML" expanded="false" />
+            <element signature="e#21057#21063#0#HTML" expanded="false" />
+            <element signature="e#21186#21192#0#HTML" expanded="false" />
+            <element signature="e#21405#21411#0#HTML" expanded="false" />
+            <element signature="e#21554#21560#0#HTML" expanded="false" />
+            <element signature="e#21804#21810#1#HTML" expanded="false" />
+            <element signature="e#21912#21918#1#HTML" expanded="false" />
+            <element signature="e#21954#21960#1#HTML" expanded="false" />
+            <element signature="e#22003#22009#1#HTML" expanded="false" />
+            <element signature="e#22402#22408#0#HTML" expanded="false" />
+            <element signature="e#22408#22414#0#HTML" expanded="false" />
+            <element signature="e#22516#22522#1#HTML" expanded="false" />
+            <element signature="e#22604#22610#1#HTML" expanded="false" />
+            <element signature="e#22712#22718#1#HTML" expanded="false" />
+            <element signature="e#22802#22808#0#HTML" expanded="false" />
+            <element signature="e#22844#22850#0#HTML" expanded="false" />
+            <element signature="e#23029#23035#1#HTML" expanded="false" />
+            <element signature="e#23076#23082#1#HTML" expanded="false" />
+            <element signature="e#23116#23122#1#HTML" expanded="false" />
+            <element signature="n#style#0;n#input#1;n#div#0;n#form#0;n#div#26;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#23279#23285#0#HTML" expanded="false" />
+            <element signature="e#23672#23678#1#HTML" expanded="false" />
+            <element signature="e#23785#23791#1#HTML" expanded="false" />
+            <element signature="e#23948#23954#1#HTML" expanded="false" />
+            <element signature="e#24071#24077#1#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/tests/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/haixinSpider/parseHtml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="138" column="13" lean-forward="true" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="103" column="36" lean-forward="false" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2017.1/python_stubs/-2010535109/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="828" column="4" lean-forward="false" selection-start-line="828" selection-start-column="4" selection-end-line="828" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThirdParty/CookiesPool/cookiespool/verify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="106" column="8" lean-forward="false" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/Test/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/Test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/Test/TestSpider/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/Test/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/Test/TestSpider/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/Test/TestSpider/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/dingdian/dingdian/mySqlPipeLine/pipeline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#58#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/dingdian/dingdian/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/dingdian/dingdian/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-218">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/dingdian/dingdian/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/zhihu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="52" column="50" lean-forward="true" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
+          <folding>
+            <element signature="e#1#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/weixin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1819">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/dingdian/dingdian/mySqlPipeLine/MongoHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/dingdian/dingdian/mySqlPipeLine/MongoPipeline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/dingdian/dingdian/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="55" column="2" lean-forward="false" selection-start-line="55" selection-start-column="2" selection-end-line="55" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/Weibo/weibo/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/Weibo/weibo/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="849">
+          <caret line="54" column="14" lean-forward="false" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/Weibo/weibo/spiders/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/haixinSpider/spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/dingdian/dingdian/spiders/dingdianxiaoshuo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/Test/TestSpider/entrypoint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/Weibo/weibo/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="37" column="41" lean-forward="false" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+          <folding>
+            <element signature="e#167#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/scrapy/crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/Weibo/weibo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="68" column="1" lean-forward="true" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/github.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="831">
+          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/baidu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-259">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/Test/TestSpider/spiders/doubanbook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/Test/TestSpider/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/Test/TestSpider/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="30" column="76" lean-forward="false" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
+          <folding>
+            <element signature="e#168#194#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -62,7 +62,7 @@ class Yundama():
         if try_count >= YUNDAMA_MAX_RETRY:
             return None
         print('Retrying: ', cid, 'Count: ', try_count)
-        time.sleep(2)
+        time.sleep(3)
         try:
             data = {'method': 'result', 'cid': cid}
             print(data)

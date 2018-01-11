@@ -192,11 +192,6 @@ if __name__ == '__main__':
     #存入微博的账号和密码
     conn = AccountRedisClient(name='weibo')
     conn.set('jiajian12358796@163.com', 'c456123')
-    conn.set('jennif_1@163.com', 'c456123')
-    conn.set('jojo1570@163.com', 'c456123')
-    conn.set('jeromeoh1981@163.com', 'c456123')
-    conn.set('jia7800jia@163.com', 'c456123')
-
     for acc in conn.all():
         print(acc)
 

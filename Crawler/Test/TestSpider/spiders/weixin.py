@@ -8,7 +8,7 @@ import requests
 from lxml.etree import XMLSyntaxError
 from requests.exceptions import ConnectionError
 from pyquery import PyQuery as pq
-from Test.TestSpider.config import *
+from Crawler.Test.TestSpider.config import *
 
 client = pymongo.MongoClient(MONGO_URI)
 db = client[MONGO_DB]

@@ -2,7 +2,7 @@
 import scrapy
 import re
 from  pyquery import PyQuery as pq
-from dingdian.dingdian.items import *
+from Crawler.dingdian.dingdian.items import *
 from scrapy.http import Request
 from scrapy.utils.response import *
 from scrapy.shell import inspect_response

@@ -97,19 +97,3 @@ class GithubSpider(CrawlSpider):
         print('issue_title：'+issue_title.strip()+'\n'+'issue_url:'+response.url)
 
 
-
-    # def _requests_to_follow(self, response):
-    #     """重写加入cookiejar的更新"""
-    #     if not isinstance(response, HtmlResponse):
-    #         return
-    #     seen = set()
-    #     for n, rule in enumerate(self._rules):
-    #         links = [l for l in rule.link_extractor.extract_links(response) if l not in seen]
-    #         if links and rule.process_links:
-    #             links = rule.process_links(links)
-    #         for link in links:
-    #             seen.add(link)
-    #             r = Request(url=link.url, callback=self._response_downloaded)
-    #             # 下面这句是我重写的
-    #             r.meta.update(rule=n, link_text=link.text, cookiejar=response.meta['cookiejar'])
-    #             yield rule.process_request(r)

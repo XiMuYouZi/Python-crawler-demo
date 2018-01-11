@@ -7,7 +7,9 @@
 
 from scrapy import signals
 import random
+import logging
 
+logger = logging.getLogger(__name__)
 
 class RandomUserAgentMiddlware(object):
     def __init__(self, crawler):
@@ -57,8 +59,22 @@ class RandomUserAgentMiddlware(object):
         return cls(crawler)
 
     def process_request(self, request, spider):
+        print('call process_request')
         request.headers.setdefault('User-Agent', self.header)
 
+
+class SpiderOutputMiddleware(object):
+
+    def process_spider_output(self, response, result, spider):
+        print ("#### 44444 response %s , result %s , spider %s ####" % (response, result, spider))
+        return result
+
+class SpiderInputMiddleware(object):
+
+    def process_spider_input(self, response, spider):
+        # inspect_response(response, spider)
+        print("#### 33333 response %s , spider %s ####" % (response, spider))
+        return response
 
 class Test1SpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,

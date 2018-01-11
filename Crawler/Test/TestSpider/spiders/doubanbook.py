@@ -1,7 +1,7 @@
 import scrapy
 from scrapy.spiders import CrawlSpider,Rule
 from scrapy.linkextractors import LinkExtractor
-from Test.TestSpider.items import DoubanItem
+from Crawler.Test.TestSpider.items import DoubanItem
 from scrapy.shell import inspect_response
 from scrapy import shell
 

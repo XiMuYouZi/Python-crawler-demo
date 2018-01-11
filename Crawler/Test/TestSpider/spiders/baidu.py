@@ -37,29 +37,19 @@ print(il.load_item())
 
 class BaiduSpider(scrapy.Spider):
     name = 'baidu'
-    allowed_domains = ['www.google.com']
-    start_urls = ['http://www.google.com/']
+    allowed_domains = ['www.baidu.com']
+    start_urls = ['http://www.baidu.com/']
 
-
-    def __init__(self,mongo_uri,mongo_db, *args , **kwargs):
-        super(BaiduSpider,self).__init__(*args,**kwargs)
-        self.mongo_uri = mongo_uri
-        self.mongo_db = mongo_db
-
-    @classmethod
-    def from_crawler(cls, crawler, *args, **kwargs):
-        return cls(
-            mongo_uri=crawler.settings.get('mongo_uri'),
-            mongo_db=crawler.settings.get('mongo_db')
-        )
-
-    # def start_requests(self):
-    #     yield Request(url='http://www.qq.com',callback=self.index_parse)
-
+    def start_requests(self):
+        print('start_requests调用')
+        yield Request(url='http://www.qq.com',callback=self.index_parse)
+    #
+    #
     def make_requests_from_url(self, url):
-        yield Request(url='http://www.sina.com', callback=self.parse)
-
-
+        print('make_requests_from_url调用')
+        return Request(url='http://www.12306.cn',meta={'download_timeout':10}, callback=self.parse)
+    #
+    #
     def index_parse(self,response):
         print('11111',response)
 
