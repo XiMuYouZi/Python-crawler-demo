@@ -58,16 +58,17 @@ DEFAULT_REQUEST_HEADERS = {
 
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
-#SPIDER_MIDDLEWARES = {
-#    'test1.middlewares.Test1SpiderMiddleware': 543,
-#}
+SPIDER_MIDDLEWARES = {
+    # 'test1.middlewares.Test1SpiderMiddleware': 543,
+    'Crawler.Test.TestSpider.middlewares.SpiderMiddleware': 1000,
+    # 'Crawler.Test.TestSpider.middlewares.SpiderInputMiddleware': None,
+}
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-   'Crawler.Test.TestSpider.middlewares.RandomUserAgentMiddlware': 543,
-    'Crawler.Test.TestSpider.middlewares.SpiderOutputMiddleware': 544,
-    'Crawler.Test.TestSpider.middlewares.SpiderInputMiddleware': 545,
+    'Crawler.Test.TestSpider.middlewares.RandomUserAgentMiddlware': 999,
+    'Crawler.Test.TestSpider.middlewares.Test1SpiderMiddleware': 1002,
 
 }
 

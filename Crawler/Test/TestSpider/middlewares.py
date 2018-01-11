@@ -59,22 +59,29 @@ class RandomUserAgentMiddlware(object):
         return cls(crawler)
 
     def process_request(self, request, spider):
-        print('call process_request')
+        print('call RandomUserAgentMiddlware--process_request')
         request.headers.setdefault('User-Agent', self.header)
+        return None
+
+    def process_response(self, request, response, spider):
+        print('call RandomUserAgentMiddlware--process_response')
+        return response
 
 
-class SpiderOutputMiddleware(object):
-
+class SpiderMiddleware(object):
     def process_spider_output(self, response, result, spider):
-        print ("#### 44444 response %s , result %s , spider %s ####" % (response, result, spider))
-        return result
-
-class SpiderInputMiddleware(object):
+        response.status = 400
+        print("#### process_spider_output:【 response %s , result %s , spider %s 】" % (response, result, spider))
+        for i in result:
+            yield i
 
     def process_spider_input(self, response, spider):
-        # inspect_response(response, spider)
-        print("#### 33333 response %s , spider %s ####" % (response, spider))
-        return response
+        response.status = 300
+        print("#### process_spider_input:【 response %s , spider %s 】" % (response, spider))
+        return None
+
+
+
 
 class Test1SpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
@@ -94,6 +101,8 @@ class Test1SpiderMiddleware(object):
         # middleware and into the spider.
 
         # Should return None or raise an exception.
+        print('call Test1SpiderMiddleware---process_spider_input')
+
         return None
 
     def process_spider_output(self, response, result, spider):
@@ -101,6 +110,8 @@ class Test1SpiderMiddleware(object):
         # it has processed the response.
 
         # Must return an iterable of Request, dict or Item objects.
+        print('call Test1SpiderMiddleware---process_spider_output')
+
         for i in result:
             yield i
 
@@ -122,4 +133,4 @@ class Test1SpiderMiddleware(object):
             yield r
 
     def spider_opened(self, spider):
-        spider.logger.info('Spider opened: %s' % spider.name)
+        spider.logger.info('Test1SpiderMiddleware---Spider opened: %s' % spider.name)

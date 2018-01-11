@@ -51,7 +51,7 @@ class BaiduSpider(scrapy.Spider):
     #
     #
     def index_parse(self,response):
-        print('11111',response)
+        print('index_parse: ', response)
 
     def parse(self, response):
-        print('222222',response)
+        print('parse: ', response)
