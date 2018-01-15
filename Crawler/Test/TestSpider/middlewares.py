@@ -6,6 +6,7 @@
 # http://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
+from scrapy.http import Response
 import random
 import logging
 
@@ -61,7 +62,7 @@ class RandomUserAgentMiddlware(object):
     def process_request(self, request, spider):
         print('call RandomUserAgentMiddlware--process_request')
         request.headers.setdefault('User-Agent', self.header)
-        return None
+        return Response(url='http://www.163.com')
 
     def process_response(self, request, response, spider):
         print('call RandomUserAgentMiddlware--process_response')

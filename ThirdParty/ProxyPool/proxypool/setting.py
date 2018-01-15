@@ -5,7 +5,7 @@ PORT = 6379
 # 如果Redis有密码，则添加这句密码，否则设置为None或''
 PASSWORD = ''
 
-# 获得代理测试时间界限
+# 测试代理是否有效的超时时间，使用代理访问baidu，超过该时间请求没有回应，判定该代理无效
 get_proxy_timeout = 9
 
 # 代理池数量界限
@@ -13,7 +13,7 @@ POOL_LOWER_THRESHOLD = 20
 POOL_UPPER_THRESHOLD = 100
 
 # 检查周期
-VALID_CHECK_CYCLE = 60
+VALID_CHECK_CYCLE = 120
 POOL_LEN_CHECK_CYCLE = 20
 
 # 测试API，用百度来测试

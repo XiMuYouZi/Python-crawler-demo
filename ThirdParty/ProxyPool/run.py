@@ -4,7 +4,7 @@ from ThirdParty.ProxyPool.proxypool.schedule import Schedule
 def main():
     s = Schedule()
     s.run()
-    app.run()
+    # app.run()
 
 
 
