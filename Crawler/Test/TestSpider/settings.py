@@ -14,7 +14,7 @@ BOT_NAME = 'Test'
 SPIDER_MODULES = ['Crawler.Test.TestSpider.spiders']
 NEWSPIDER_MODULE = 'Crawler.Test.TestSpider.spiders'
 
-COOKIES_DEBUG = True
+# COOKIES_DEBUG = True
 COOKIES_ENABLED  = True
 DEPTH_LIMIT = 0#爬取深度，无限制
 
@@ -24,8 +24,8 @@ DEPTH_LIMIT = 0#爬取深度，无限制
 更好的网站，而不是使用默认的下载延迟零
 自动调整scrapy到最佳的爬行速度，所以用户不必调整下载延迟找到最佳的。用户只需要指定它允许的最大并发请求，其余的就是扩展。
 '''
-AUTOTHROTTLE_ENABLED = True
-AUTOTHROTTLE_DEBUG = False
+# AUTOTHROTTLE_ENABLED = True
+# AUTOTHROTTLE_DEBUG = False
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'test1 (+http://www.yourdomain.com)'
 
@@ -38,7 +38,8 @@ ROBOTSTXT_OBEY = False
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-#DOWNLOAD_DELAY = 3
+DOWNLOAD_DELAY = 1
+RANDOMIZE_DOWNLOAD_DELAY = True
 # The download delay setting will honor only one of:
 CONCURRENT_REQUESTS_PER_DOMAIN = 4
 #CONCURRENT_REQUESTS_PER_IP = 16
@@ -60,15 +61,15 @@ DEFAULT_REQUEST_HEADERS = {
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 SPIDER_MIDDLEWARES = {
     # 'test1.middlewares.Test1SpiderMiddleware': 543,
-    'Crawler.Test.TestSpider.middlewares.SpiderMiddleware': 1000,
+    # 'Crawler.Test.TestSpider.middlewares.SpiderMiddleware': 1000,
     # 'Crawler.Test.TestSpider.middlewares.SpiderInputMiddleware': None,
 }
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-    'Crawler.Test.TestSpider.middlewares.RandomUserAgentMiddlware': 999,
-    'Crawler.Test.TestSpider.middlewares.Test1SpiderMiddleware': 1002,
+    # 'Crawler.Test.TestSpider.middlewares.RandomUserAgentMiddlware': 999,
+    # 'Crawler.Test.TestSpider.middlewares.Test1SpiderMiddleware': 1002,
 
 }
 

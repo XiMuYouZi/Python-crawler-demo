@@ -1,3 +1,5 @@
+# 爬取豆瓣全站的图书信息
+
 import scrapy
 from scrapy.spiders import CrawlSpider,Rule
 from scrapy.linkextractors import LinkExtractor
@@ -12,8 +14,11 @@ class DoubanDemoSpider(CrawlSpider):
     allowed_domains = ["douban.com"]
     start_urls = ['https://book.douban.com/tag']
     rules={
+        #跟踪每个分类的url
         Rule(LinkExtractor(allow='/tag/',restrict_xpaths="//div[@class='article']"),follow=True),
+        #跟踪分类页面的翻页URL
         Rule(LinkExtractor(allow="\?start=\d+\&type=",restrict_xpaths="//div[@class='paginator']"),follow=True),
+        #跟踪分类的每个页面的图书url
         Rule(LinkExtractor(allow="/subject/\d+/$",restrict_xpaths="//ul[@class='subject-list']"),callback='parse_item')
     }
     def parse_item(self,response):

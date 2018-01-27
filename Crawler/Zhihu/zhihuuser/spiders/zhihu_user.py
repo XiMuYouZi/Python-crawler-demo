@@ -1,8 +1,12 @@
 # -*- coding: utf-8 -*-
+
+# 爬取知乎全站的用户信息
+
+
 import json
 
 from scrapy import Spider, Request
-from zhihuuser.items import UserItem
+from Crawler.Zhihu.zhihuuser.items import UserItem
 
 
 class ZhihuSpider(Spider):
@@ -37,18 +41,20 @@ class ZhihuSpider(Spider):
         print('解析每个用户的信息\n: ',result)
         item = UserItem()
 
+        #解析用户信息
         for field in item.fields:
             if field in result.keys():
                 item[field] = result.get(field)
         yield item
 
-        # yield Request(
-        #     self.follows_url.format(user=result.get('url_token'), include=self.follows_query, limit=20, offset=0),
-        #     self.parse_follows)
-        #
-        # yield Request(
-        #     self.followers_url.format(user=result.get('url_token'), include=self.followers_query, limit=20, offset=0),
-        #     self.parse_followers)
+        # 生成该用户的关注和粉丝用户的Request
+        yield Request(
+            self.follows_url.format(user=result.get('url_token'), include=self.follows_query, limit=20, offset=0),
+            self.parse_follows)
+
+        yield Request(
+            self.followers_url.format(user=result.get('url_token'), include=self.followers_query, limit=20, offset=0),
+            self.parse_followers)
 
 
 #解析他的关注列表

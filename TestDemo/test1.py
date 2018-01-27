@@ -1,34 +1,18 @@
-from decimal import Decimal
+﻿import re
 
-########################################################################
-class Fees(object):
-    """"""
+_matches = lambda url, regexs: any(r.search(url) for r in regexs)
 
-    # ----------------------------------------------------------------------
-    def __init__(self):
-        """Constructor"""
-        self._fee = None
+url = 'https://www.zhihu.com/collection/38887091'
+patten = re.compile(r'collection\/\d+')
+allow_res = []
+allow_res.append(patten)
 
-    # ----------------------------------------------------------------------
-    @property
-    def fee(self):
-        """
-        Return the current fee
-        """
-        return self._fee
 
-    # ----------------------------------------------------------------------
-    @fee.setter
-    def fee(self, value):
-        """
-        Set the fee
-        """
-        if isinstance(value, str):
-            self._fee = Decimal(value)
-        elif isinstance(value, Decimal):
-            self._fee = value
+def match(url, allow_res):
+    if allow_res and not _matches(url, allow_res):
+        return False
+    else:
+        return True
 
-if __name__ == '__main__':
-    f = Fees()
-    f.fee = '222'
-    print(f.fee)
+
+print(match(url, allow_res))

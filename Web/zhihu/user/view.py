@@ -19,7 +19,6 @@ user_data = [
 
 MONGO_URI = 'localhost'
 MONGO_DATABASE = 'zhihu'
-
 client = pymongo.MongoClient(MONGO_URI)
 db = client[MONGO_DATABASE]
 collection = 'users'
@@ -32,10 +31,9 @@ def get(id):
             return jsonify(status='success', user=user)
 
 
-# 实现MongoDB的翻页查询
-@user.route('/users', methods=['GET', 'POST'])
+# post方法实现MongoDB的翻页查询
+@user.route('/users', methods=['POST'])
 def users():
-    print(request.headers, request.data, request.form)
     page = request.form.get("page", type=int, default=None)
     datas = db[collection].find({}, {'name': 1, 'description': 1, 'headline': 1, '_id': 0}).skip(20 * page).limit(20)
     users = []
