@@ -3,7 +3,7 @@ from Web.zhihu.user import user
 from Web.zhihu.error import error
 from flask import Flask
 from Web.zhihu.main import main
-from flask.ext.script import Manager
+from flask_script import Manager
 
 app = Flask(__name__)
 
@@ -15,4 +15,4 @@ app.register_blueprint(main, url_prefix='/index')
 manager = Manager(app)
 
 if __name__ == '__main__':
-    manager.run()
+    app.run(host='0.0.0.0')

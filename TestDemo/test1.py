@@ -2,8 +2,8 @@
 
 _matches = lambda url, regexs: any(r.search(url) for r in regexs)
 
-url = 'https://www.zhihu.com/collection/38887091'
-patten = re.compile(r'collection\/\d+')
+url = 'https://book.douban.com/tag/BL?start=500&type=R>'
+patten = re.compile(r'start=\d+\&type=')
 allow_res = []
 allow_res.append(patten)
 

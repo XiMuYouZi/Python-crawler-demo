@@ -74,7 +74,7 @@ DOWNLOADER_MIDDLEWARES = {
     # 'Crawler.Zhihu.zhihuuser.middlewares.ZhiHuRandomPorxyIPMiddleware':800,
     'Crawler.Zhihu.zhihuuser.middlewares.ZhiHuRandomUserAgentMiddleWare': 801
 }
-
+RETRY_HTTP_CODES = [500, 502, 503, 504, 408, 404, 403]
 # Enable or disable extensions
 # See http://scrapy.readthedocs.org/en/latest/topics/extensions.html
 # EXTENSIONS = {
